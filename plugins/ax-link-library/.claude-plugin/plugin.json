@@ -1,0 +1,9 @@
+{
+  "name": "ax-link-library",
+  "version": "1.0.0",
+  "description": "Look up Carmen's curated accessibility links (her comments plus page summaries), and add new ones if you own the library.",
+  "author": {
+    "name": "Carmen"
+  },
+  "keywords": ["accessibility", "a11y", "wcag", "links", "research"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ax-skills",
+  "owner": {
+    "name": "Carmen"
+  },
+  "metadata": {
+    "description": "Claude skills for digital accessibility work.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ax-link-library",
+      "source": "./plugins/ax-link-library",
+      "description": "Look up Carmen's curated accessibility links (her comments plus page summaries), and add new ones if you own the library.",
+      "version": "1.0.0",
+      "category": "research"
+    }
+  ]
+}

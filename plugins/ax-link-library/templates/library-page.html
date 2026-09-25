@@ -1,0 +1,311 @@
+<title>Accessibility Link Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,800;1,400&family=Atkinson+Hyperlegible+Mono:wght@400;600&display=swap">
+<style>
+:root{
+  --paper:#F5F6F2; --surface:#FFFFFF; --ink:#18212B; --ink-2:#46515D; --line:#D9DDD6;
+  --teal:#0A6A66; --teal-ink:#FFFFFF; --teal-soft:#E1EFED;
+  --note:#FFF4D6; --note-edge:#B7791F; --note-ink:#3A2A08;
+  --warn:#8A4B00; --warn-soft:#FBEBD6;
+  --focus:#1D4ED8;
+  --body:"Atkinson Hyperlegible Next","Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Atkinson Hyperlegible Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#11161C; --surface:#18202A; --ink:#E8ECEF; --ink-2:#A9B4BE; --line:#2C3743;
+    --teal:#5CC8BF; --teal-ink:#08201E; --teal-soft:#16302F;
+    --note:#2B2414; --note-edge:#D9A441; --note-ink:#F4E6C4;
+    --warn:#F0B46A; --warn-soft:#33240F;
+    --focus:#8AB4FF;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#11161C; --surface:#18202A; --ink:#E8ECEF; --ink-2:#A9B4BE; --line:#2C3743;
+  --teal:#5CC8BF; --teal-ink:#08201E; --teal-soft:#16302F;
+  --note:#2B2414; --note-edge:#D9A441; --note-ink:#F4E6C4;
+  --warn:#F0B46A; --warn-soft:#33240F;
+  --focus:#8AB4FF;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.55;padding-inline:16px;padding-block:0 64px}
+a{color:var(--teal);text-underline-offset:2px}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:3px}
+.skip{position:absolute;left:16px;top:-60px;background:var(--ink);color:var(--paper);padding:8px 14px;border-radius:4px;z-index:10}
+.skip:focus{top:12px}
+.wrap{max-width:1080px;margin-inline:auto}
+header.top{padding-block:40px 20px;display:grid;gap:10px}
+.eyebrow{font-family:var(--mono);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);margin:0}
+h1{font-size:clamp(2rem,5vw,3.1rem);line-height:1.05;margin:0;font-weight:800;letter-spacing:-.01em;text-wrap:balance}
+.lede{margin:0;color:var(--ink-2);max-width:62ch}
+.stats{font-family:var(--mono);font-size:.85rem;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:6px 18px;margin:0;padding:0;list-style:none}
+.stats b{color:var(--ink);font-weight:600}
+
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px}
+.tools{display:grid;grid-template-columns:1fr;gap:16px;margin-block:8px 24px}
+@media (min-width:860px){.tools{grid-template-columns:1.25fr 1fr}}
+label.lbl,.lbl{display:block;font-weight:600;margin-bottom:6px}
+.hint{font-size:.9rem;color:var(--ink-2);margin:4px 0 0}
+input[type=search],textarea,select{font:inherit;color:var(--ink);background:var(--paper);border:2px solid var(--line);border-radius:8px;padding:10px 12px;width:100%}
+input[type=search]:focus,textarea:focus,select:focus{border-color:var(--teal);outline:none;box-shadow:0 0 0 3px var(--focus)}
+textarea{min-height:84px;resize:vertical}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:end}
+.row>*{flex:1 1 180px}
+button{font:inherit;cursor:pointer;border-radius:8px;padding:9px 16px;border:2px solid var(--teal);background:var(--teal);color:var(--teal-ink);font-weight:600}
+button.ghost{background:transparent;color:var(--teal)}
+button:disabled{opacity:.55;cursor:not-allowed}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+
+fieldset.tags{border:0;padding:0;margin:14px 0 0}
+fieldset.tags legend{font-weight:600;padding:0;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.88rem;padding:4px 10px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);font-weight:400}
+.chip[aria-pressed=true]{background:var(--teal);border-color:var(--teal);color:var(--teal-ink);font-weight:600}
+.chip .n{font-family:var(--mono);font-size:.78rem;opacity:.8;margin-left:4px}
+
+.answer{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
+.answer p{margin:.4em 0}
+.answer ul{margin:.4em 0;padding-left:1.2em}
+.status{font-size:.9rem;color:var(--ink-2)}
+
+.resultbar{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:baseline;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:4px}
+.resultbar h2{margin:0;font-size:1.25rem}
+#count{font-family:var(--mono);font-size:.9rem;color:var(--ink-2)}
+ol.list{list-style:none;margin:0;padding:0}
+ol.list>li{border-bottom:1px solid var(--line);padding-block:18px;display:grid;gap:8px}
+.entry-head{display:flex;gap:12px;align-items:baseline}
+.num{font-family:var(--mono);font-size:.8rem;color:var(--ink-2);min-width:2.6em;font-variant-numeric:tabular-nums}
+.entry h3{margin:0;font-size:1.12rem;line-height:1.3;text-wrap:balance}
+.entry h3 a{color:var(--ink);text-decoration-color:var(--teal);text-decoration-thickness:2px}
+.entry h3 a:hover{color:var(--teal)}
+.meta{font-family:var(--mono);font-size:.8rem;color:var(--ink-2);margin:0;overflow-wrap:anywhere}
+.body{padding-left:calc(2.6em + 12px);display:grid;gap:8px}
+@media (max-width:520px){.body{padding-left:0}}
+.note{background:var(--note);color:var(--note-ink);border-left:4px solid var(--note-edge);padding:8px 12px;border-radius:0 6px 6px 0;margin:0}
+.note .who{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;display:block;margin-bottom:2px;opacity:.85}
+.note ul{margin:0;padding-left:1.1em}
+.note a{color:inherit}
+details{margin:0}
+details summary{cursor:pointer;color:var(--teal);font-weight:600;font-size:.95rem;width:fit-content}
+details .sum{margin:.5em 0 0;max-width:70ch}
+details ul{margin:.4em 0 0;padding-left:1.2em;max-width:70ch}
+.taglist{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.taglist li{font-size:.78rem;font-family:var(--mono);background:var(--teal-soft);color:var(--ink);padding:2px 8px;border-radius:4px}
+.flag{font-size:.82rem;background:var(--warn-soft);color:var(--warn);padding:3px 8px;border-radius:4px;width:fit-content}
+.empty{padding:30px 0;color:var(--ink-2)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+footer{margin-top:28px;color:var(--ink-2);font-size:.9rem}
+@media (prefers-reduced-motion:no-preference){ol.list>li{animation:in .25s ease-out both}@keyframes in{from{opacity:.4}to{opacity:1}}}
+</style>
+
+<a class="skip" href="#results">Skip to links</a>
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">Curated links · web and mobile accessibility</p>
+    <h1>Accessibility Link Library</h1>
+    <p class="lede">Articles, standards, tools and personal stories about digital accessibility. Each link has the curator's own notes plus a short summary of the page.</p>
+    <ul class="stats" id="stats" aria-label="Library totals"><li>Loading the library…</li></ul>
+  </header>
+
+  <main>
+    <div class="tools">
+      <section class="panel" aria-labelledby="find-h">
+        <h2 id="find-h" class="lbl" style="font-size:1.05rem;margin:0 0 8px">Find links</h2>
+        <div class="row">
+          <div>
+            <label class="lbl" for="q">Search titles, notes and summaries</label>
+            <input id="q" type="search" placeholder="e.g. focus dialog, VoiceOver, overlays" autocomplete="off">
+          </div>
+          <div style="flex:0 1 190px">
+            <label class="lbl" for="sort">Sort</label>
+            <select id="sort">
+              <option value="new">Newest added first</option>
+              <option value="old">Oldest first</option>
+              <option value="title">Title A–Z</option>
+            </select>
+          </div>
+        </div>
+        <fieldset class="tags">
+          <legend>Filter by topic <span class="hint" style="display:inline">(pick one or more; links must match all)</span></legend>
+          <div class="chips" id="chips"></div>
+        </fieldset>
+        <div class="btns"><button type="button" class="ghost" id="clear">Clear filters</button></div>
+      </section>
+
+      <section class="panel" aria-labelledby="ask-h">
+        <h2 id="ask-h" class="lbl" style="font-size:1.05rem;margin:0 0 8px">Ask the library</h2>
+        <form id="askform">
+          <label class="lbl" for="ask">Your question</label>
+          <textarea id="ask" placeholder="What have I saved about focus management in dialogs?"></textarea>
+          <p class="hint">Claude answers using only this collection and cites the links.</p>
+          <div class="btns">
+            <button type="submit" id="askbtn">Ask</button>
+            <button type="button" class="ghost" id="dl">Download as Markdown</button>
+            <button type="button" class="ghost" id="copy">Copy as Markdown</button>
+          </div>
+        </form>
+        <p class="status" id="toolstatus" role="status"></p>
+        <div class="answer" id="answer" aria-live="polite" hidden></div>
+      </section>
+    </div>
+
+    <section id="results" aria-labelledby="res-h" tabindex="-1">
+      <div class="resultbar">
+        <h2 id="res-h">Links</h2>
+        <span id="count" role="status" aria-live="polite"></span>
+      </div>
+      <ol class="list" id="list"></ol>
+      <p class="empty" id="empty" hidden>No links match. Try fewer topics or a shorter search.</p>
+    </section>
+  </main>
+  <footer><p>Summaries were written by AI from each page and may miss nuance; the linked page is the authority. The curator's notes are shown word for word.</p></footer>
+</div>
+
+<script>
+(function(){
+  const $=id=>document.getElementById(id);
+  let DATA=[], selected=new Set(), sampleFn=null, downloads=null;
+
+  function el(tag,attrs,...kids){const n=document.createElement(tag);if(attrs)for(const k in attrs){if(k==='text')n.textContent=attrs[k];else n.setAttribute(k,attrs[k]);}for(const c of kids){if(c==null)continue;n.append(c);}return n;}
+  function comments(o){const c=(o.my_comments||[]).slice();if(o.my_label)c.unshift(o.my_label);return c;}
+  function linkify(text){ // turn bare URLs in a note into links
+    const frag=document.createDocumentFragment();const re=/https?:\/\/[^\s)]+/g;let last=0,m;
+    while((m=re.exec(text))){frag.append(text.slice(last,m.index));frag.append(el('a',{href:m[0],text:m[0]}));last=m.index+m[0].length;}
+    frag.append(text.slice(last));return frag;}
+  function hay(o){return [o.title,o.author,o.summary,(o.key_points||[]).join(' '),comments(o).join(' '),(o.tags||[]).join(' '),o.url].join(' ').toLowerCase();}
+
+  function renderStats(){
+    const tags=new Set(DATA.flatMap(o=>o.tags||[]));
+    const withNotes=DATA.filter(o=>comments(o).length).length;
+    const s=$('stats');s.replaceChildren(
+      el('li',null,el('b',{text:String(DATA.length)}),' links'),
+      el('li',null,el('b',{text:String(withNotes)}),' with curator notes'),
+      el('li',null,el('b',{text:String(tags.size)}),' topics'));
+  }
+  function renderChips(){
+    const counts={};DATA.forEach(o=>(o.tags||[]).forEach(t=>counts[t]=(counts[t]||0)+1));
+    const names=Object.keys(counts).sort((a,b)=>a.localeCompare(b));
+    $('chips').replaceChildren(...names.map(t=>{const b=el('button',{type:'button',class:'chip','aria-pressed':selected.has(t)?'true':'false'},t,el('span',{class:'n','aria-hidden':'true',text:String(counts[t])}));
+      b.setAttribute('aria-label',t+', '+counts[t]+' links');
+      b.addEventListener('click',()=>{selected.has(t)?selected.delete(t):selected.add(t);b.setAttribute('aria-pressed',selected.has(t)?'true':'false');renderList();});return b;}));
+  }
+  function filtered(){
+    const words=$('q').value.toLowerCase().split(/\s+/).filter(Boolean);
+    let r=DATA.filter(o=>{for(const t of selected)if(!(o.tags||[]).includes(t))return false;if(!words.length)return true;const h=hay(o);return words.every(w=>h.includes(w));});
+    const s=$('sort').value;
+    r.sort((a,b)=>s==='title'?String(a.title).localeCompare(String(b.title)):s==='old'?order(a)-order(b):order(b)-order(a));
+    return r;
+  }
+  function order(o){return (o.section==='Mobile AX coursework links'?-1000:0)+Number(o.id||0);} // coursework list predates the running list
+  function renderList(){
+    const r=filtered();
+    $('count').textContent=r.length===DATA.length?`Showing all ${r.length}`:`Showing ${r.length} of ${DATA.length}`;
+    $('empty').hidden=r.length>0;
+    $('list').replaceChildren(...r.map(o=>{
+      const metaBits=[o.author,o.date,o.type].filter(Boolean).join(' · ');
+      const head=el('div',{class:'entry-head'},el('span',{class:'num',text:'#'+o.id}),el('h3',null,el('a',{href:o.url,text:o.title||o.url})));
+      const body=el('div',{class:'body'});
+      if(metaBits)body.append(el('p',{class:'meta',text:metaBits}));
+      const c=comments(o);
+      if(c.length){const n=el('div',{class:'note'},el('span',{class:'who',text:'Curator’s note'}));
+        if(c.length===1)n.append(el('p',{style:'margin:0'},linkify(c[0])));else n.append(el('ul',null,...c.map(x=>el('li',null,linkify(x)))));body.append(n);}
+      if(o.summary){const d=el('details',null,el('summary',{text:'Summary'}),el('p',{class:'sum',text:o.summary}));
+        if(o.key_points&&o.key_points.length)d.append(el('ul',null,...o.key_points.map(k=>el('li',{text:k}))));
+        if(o.related)d.append(el('p',{class:'sum'},'Related: ',el('a',{href:o.related.url,text:o.related.title}),'. '+(o.related.summary||'')));
+        body.append(d);}
+      if(o.page_status&&o.page_status!=='ok')body.append(el('p',{class:'flag',text:'No summary: '+(o.status_note||o.page_status)}));
+      if(o.original_url)body.append(el('p',{class:'meta',text:'Originally saved as '+o.original_url}));
+      if(o.tags&&o.tags.length)body.append(el('ul',{class:'taglist','aria-label':'Topics'},...o.tags.map(t=>el('li',{text:t}))));
+      return el('li',{class:'entry'},el('article',{'aria-labelledby':'t'+o.id},head,body));
+    }));
+    [...$('list').querySelectorAll('h3')].forEach((h,i)=>{h.id='t'+r[i].id;});
+  }
+
+  function toMarkdown(){
+    const today=new Date().toISOString().slice(0,10);
+    const rows=DATA.slice().sort((a,b)=>order(a)-order(b));
+    let md=`# Accessibility Link Library\n\n*${rows.length} entries · exported ${today}*\n\n## How to use this file (instructions for AI assistants)\n\nThis is a curated collection of web resources about digital accessibility, curated by the library's owner. Each entry has **My comments** (the curator's own notes, verbatim; give them priority when asked what the curator thought or recommended), an AI-written **Summary** and **Key points** of the linked page, **Tags**, and a **Page status** (ok = summary came from the page; moved/blocked/unreadable = no summary). Cite entries by title and URL, say whether an answer comes from the curator's comments or the page summary, and say so when the library doesn't cover a question.\n`;
+    let sec='';
+    for(const o of rows){
+      if(o.section!==sec){sec=o.section;md+=`\n## ${sec}\n`;}
+      md+=`\n### ${o.id}. ${o.title}\n\n- **URL:** ${o.url}\n`;
+      if(o.original_url)md+=`- **Original link (moved):** ${o.original_url}\n`;
+      const meta=[o.author,o.date,o.type].filter(Boolean).join(' · ');if(meta)md+=`- **Source:** ${meta}\n`;
+      if(o.tags&&o.tags.length)md+=`- **Tags:** ${o.tags.join(', ')}\n`;
+      const c=comments(o);if(c.length)md+=`- **My comments:** ${c.join(' | ')}\n`;
+      if(o.summary)md+=`- **Summary:** ${o.summary}\n`;
+      if(o.key_points&&o.key_points.length)md+=`- **Key points:** ${o.key_points.join('; ')}\n`;
+      if(o.related)md+=`- **Related link:** [${o.related.title}](${o.related.url}): ${o.related.summary||''}\n`;
+      md+=`- **Page status:** ${o.page_status||'ok'}${o.status_note?' ('+o.status_note+')':''}\n`;
+    }
+    return md;
+  }
+  const say=t=>{$('toolstatus').textContent=t;};
+  $('dl').addEventListener('click',async()=>{
+    if(!downloads){say('Downloading isn’t available in this view. Use Copy as Markdown instead.');return;}
+    try{await downloads.save({filename:'AX-Link-Library.md',data:toMarkdown()});say('Saved AX-Link-Library.md.');}
+    catch(e){say('The file wasn’t saved. You can use Copy as Markdown instead.');}
+  });
+  $('copy').addEventListener('click',()=>{
+    const md=toMarkdown();
+    navigator.clipboard.writeText(md).then(()=>say('Copied the whole library as Markdown. Paste it into any AI chat.'),()=>say('Your browser blocked copying here. Use Download as Markdown instead.'));
+  });
+
+  // Ask the library
+  function renderAnswer(text,target){
+    target.replaceChildren();let list=null;
+    for(const raw of text.split('\n')){
+      const line=raw.trim();if(!line){list=null;continue;}
+      const m=line.match(/^[-*]\s+(.*)/);
+      const node=el(m?'li':'p');inline(m?m[1]:line.replace(/^#+\s*/,''),node);
+      if(m){if(!list){list=el('ul');target.append(list);}list.append(node);}else{list=null;target.append(node);}
+    }
+  }
+  function inline(s,into){const re=/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)|\*\*([^*]+)\*\*/g;let last=0,m;
+    while((m=re.exec(s))){into.append(s.slice(last,m.index));if(m[2])into.append(el('a',{href:m[2],text:m[1]}));else into.append(el('strong',{text:m[3]}));last=m.index+m[0].length;}
+    into.append(s.slice(last));}
+  let ctrl=null;
+  $('askform').addEventListener('submit',async ev=>{
+    ev.preventDefault();
+    const q=$('ask').value.trim();if(!q){say('Type a question first.');$('ask').focus();return;}
+    if(!sampleFn){say('Asking isn’t available in this view.');return;}
+    if(ctrl)ctrl.abort();ctrl=new AbortController();
+    const index=DATA.map(o=>`${o.id} | ${o.title} | ${(o.tags||[]).join(', ')} | note: ${comments(o).join(' / ')||'-'}`).join('\n');
+    const prompt=`You answer questions about a curated library of accessibility links. Use ONLY the library. Here is the index (id | title | tags | curator's note):\n\n${index}\n\nCall get_entries with the ids that look relevant to read their URLs and summaries before answering. Answer in a few short paragraphs or a bulleted list. Cite each link as a markdown link [title](url). Make clear what comes from the curator's notes versus the page summary. If the library doesn't cover the question, say so.\n\nQuestion: ${q}`;
+    const ans=$('answer');ans.hidden=false;ans.setAttribute('aria-busy','true');ans.replaceChildren(el('p',{class:'status',text:'Thinking…'}));
+    $('askbtn').disabled=true;say('');
+    try{
+      const res=await sampleFn(prompt,{signal:ctrl.signal,cache:false,
+        tools:[{name:'get_entries',description:'Get full details (url, summary, key points, Curator’s notes) for library entries by id. Ask for at most 12 ids at a time.',
+          inputSchema:{type:'object',properties:{ids:{type:'array',items:{type:'integer'}}},required:['ids']},
+          execute:({ids})=>DATA.filter(o=>(ids||[]).slice(0,12).includes(Number(o.id))).map(o=>({id:o.id,title:o.title,url:o.url,notes:comments(o),summary:o.summary,key_points:o.key_points,author:o.author,date:o.date}))}],
+        onText:({text})=>renderAnswer(text,ans)});
+      renderAnswer(res.text,ans);
+    }catch(e){
+      if(e&&e.code==='cancelled')return;
+      if(e&&e.text)renderAnswer(e.text,ans);
+      ans.append(el('p',{class:'status',text:e&&e.code==='not_granted'?'Asking needs your permission to use Claude.':e&&e.code==='rate_limited'?'Too many questions at once. Wait a minute and try again.':'The question couldn’t be answered. Try again.'}));
+    }finally{ans.removeAttribute('aria-busy');$('askbtn').disabled=false;}
+  });
+
+  $('q').addEventListener('input',renderList);
+  $('sort').addEventListener('change',renderList);
+  $('clear').addEventListener('click',()=>{selected.clear();$('q').value='';renderChips();renderList();});
+
+  async function boot(){
+    const c=window.claude;
+    if(!c||!c.use){$('stats').replaceChildren(el('li',{text:'Open this page on claude.ai to load the library.'}));return;}
+    c.use('sample').then(s=>{sampleFn=s;if(!s){$('askbtn').disabled=true;say('Asking isn’t available in this view.');}});
+    c.use('downloads').then(d=>{downloads=d;if(!d)$('dl').hidden=true;});
+    const db=await c.use('db');
+    if(!db){$('stats').replaceChildren(el('li',{text:'The library couldn’t load in this view.'}));return;}
+    db.collection('links').onSnapshot(snap=>{
+      DATA=snap.docs.map(d=>d.data());renderStats();renderChips();renderList();
+    },()=>{$('stats').replaceChildren(el('li',{text:'The library stopped updating. Reload the page.'}));});
+  }
+  boot();
+})();
+</script>
