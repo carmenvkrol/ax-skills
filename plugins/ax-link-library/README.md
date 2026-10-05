@@ -15,13 +15,22 @@ The library itself is a page on claude.ai: [Accessibility Link Library](https://
 
 You can read and search the library, but only I can add or change links. The skill will tell you if you try.
 
+## Library snapshot
+
+The [`library`](library) folder has a copy of every link, so you can use it without access to the page:
+
+- [`ax-links.md`](library/ax-links.md): the whole library as Markdown, with instructions at the top for AI tools. Upload it to ChatGPT, Copilot, NotebookLM or similar.
+- [`ax-links.json`](library/ax-links.json): the same entries as JSON, with the fields described in the skill.
+
+The page is the live version. I refresh these files from time to time, and the date at the top of each one shows when.
+
 ## Start your own library
 
 If you'd like an editable library of your own:
 
 1. **Publish your own page.** Give Claude the file [`templates/library-page.html`](templates/library-page.html) and ask it to publish the page as an artifact with these capabilities:
    `{"db": {"rules": [{"path": "", "read": "view", "write": "admin"}]}, "sample": {}, "downloads": true}`
-2. **Optionally start from my links.** Download my library as Markdown from the page and ask Claude to load the entries into your page's `links` collection, keeping the same fields. Replace or clear my comments, since they'd otherwise appear as yours.
+2. **Optionally start from my links.** Give Claude [`library/ax-links.json`](library/ax-links.json) and ask Claude to load the entries into your page's `links` collection, keeping the same fields. Replace or clear my comments, since they'd otherwise appear as yours.
 3. **Point the skill at your page.** In your copy of `skills/ax-link-library/SKILL.md`, replace my library URL with your page's URL, and replace my name with yours.
 
 After that, paste a link and a comment into Claude and it will read the page, summarize it, tag it and add it to your library.
@@ -32,5 +41,7 @@ After that, paste a link and a comment into Claude and it will read the page, su
 ax-link-library/
 ├── .claude-plugin/plugin.json      plugin details
 ├── skills/ax-link-library/SKILL.md the skill
+├── library/ax-links.md             snapshot of the library, Markdown
+├── library/ax-links.json           snapshot of the library, JSON
 └── templates/library-page.html     the library page, for starting your own
 ```

@@ -1,0 +1,3940 @@
+{
+ "title": "Carmen's Accessibility Link Library",
+ "updated": "2026-10-05",
+ "count": 166,
+ "fields": {
+  "my_comments": "Carmen's own notes (her opinions)",
+  "summary": "AI-written summary of the page",
+  "page_status": "ok = summary from page; otherwise no summary"
+ },
+ "links": [
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Martin Underhill (tempertemper)",
+   "date": "2024-07-28",
+   "id": 1,
+   "key_points": [
+    "Users naturally resist interface changes regardless of benefit",
+    "Existing user bases lack disabled people due to historical exclusion",
+    "Unanimous negative feedback doesn't mean the change is worse",
+    "Roll changes out incrementally to minimize disruption"
+   ],
+   "my_comments": [
+    "Feedback from existing users likely to be negative because not including accessibility from the start"
+   ],
+   "my_label": "User ‘wants’ versus accessibility",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explores the tension between user feedback and accessibility improvements in organizations that historically lacked inclusive design. Explains why existing users often resist accessible changes and how a homogenous user base can mask the needs of disabled people who were previously excluded.",
+   "tags": [
+    "Programs & process",
+    "Lived experience & culture"
+   ],
+   "title": "User 'wants' versus accessibility",
+   "type": "article",
+   "url": "https://www.tempertemper.net/blog/user-wants-versus-accessibility"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Chris Coyier (Frontend Masters)",
+   "date": "2024-09-30",
+   "id": 2,
+   "key_points": [
+    "Modal dialogs trap focus and add a backdrop",
+    "Popovers can be controlled with HTML only (popovertarget)",
+    "Both close with Esc",
+    "Dialogs move focus inside; popovers leave it on the trigger",
+    "Popovers light-dismiss on outside click unless manual"
+   ],
+   "original_url": "https://frontendmasters.com/blog/whats-the-difference-between-htmls-dialog-element-and-popovers/",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Compares the HTML <dialog> element with the popover attribute. Both are hidden by default and render in the top layer, but they differ in focus management, how they're controlled and when to use them: dialogs suit modal interactions with focus trapping, popovers offer HTML-only controls and light dismiss.",
+   "tags": [
+    "HTML & components",
+    "Focus & keyboard"
+   ],
+   "title": "What's the Difference Between HTML's Dialog Element and Popovers?",
+   "type": "article",
+   "url": "https://blog.master.dev/whats-the-difference-between-htmls-dialog-element-and-popovers/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "HuffPost Contributor",
+   "date": "2016",
+   "id": 3,
+   "key_points": [
+    "Invisible disabilities can require wheelchair use without paralysis",
+    "Parking placards cover many conditions beyond mobility",
+    "Identity-first language is a legitimate preference",
+    "'Inspiration porn' objectifies disabled people"
+   ],
+   "my_comments": [
+    "Myths about disability"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Debunks common misconceptions about disabled people: wheelchair users may be able to walk, accessible parking placards cover non-visible conditions, identity-first language is valid, and disabled people want respect rather than 'inspiration porn'.",
+   "tags": [
+    "Lived experience & culture"
+   ],
+   "title": "Basic Myths about Disability I Can't Believe We Still Have to Debunk",
+   "type": "article",
+   "url": "https://www.huffpost.com/entry/basic-myths-about-the-dis_b_9560556"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Devon Persing",
+   "date": "2024-10-17",
+   "id": 4,
+   "key_points": [
+    "Combines social-science foundations with actionable program strategy",
+    "Addresses systemic burnout among accessibility professionals",
+    "Intersectional, community-centered approach",
+    "DRM-free ebook; also available via libraries (OverDrive)"
+   ],
+   "my_comments": [
+    "Accessibility Operations Guidebook"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Announces the Accessibility Operations Guidebook ebook, which addresses burnout in accessibility work with organizational-psychology theory and practical strategies for building sustainable, data-driven accessibility programs that center disabled people.",
+   "tags": [
+    "Programs & process",
+    "Learning resources"
+   ],
+   "title": "The Accessibility Operations Guidebook is out",
+   "type": "book announcement",
+   "url": "https://devonpersing.netlify.app/posts/taog-is-out/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Jo Chang (Bootcamp, Medium)",
+   "date": "2024-10-11",
+   "id": 5,
+   "key_points": [
+    "NVDA has limited MathML support",
+    "Access8Math adds math reading and navigation modes",
+    "Web editor for teachers, no Nemeth expertise needed",
+    "Free, volunteer-built add-on"
+   ],
+   "my_comments": [
+    "Math on NVDA"
+   ],
+   "original_url": "https://scribe.rip/design-bootcamp/designing-for-accessibility-enhancing-math-learning-for-the-blind-using-the-nvda-screen-reader-bc2a43145c97",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "status_note": "Original scribe.rip mirror link is broken; use the Medium URL",
+   "summary": "Looks at Access8Math, a free NVDA add-on from the Taiwanese nonprofit Coseeing, which addresses barriers blind students face learning math digitally. Covers NVDA's weak MathML support, Access8Math's reading/interaction modes, and a web editor that lets teachers create accessible math without knowing Nemeth Braille.",
+   "tags": [
+    "Screen readers & braille",
+    "Lived experience & culture"
+   ],
+   "title": "Designing for accessibility: enhancing math learning for the blind using the NVDA screen reader",
+   "type": "article",
+   "url": "https://medium.com/design-bootcamp/designing-for-accessibility-enhancing-math-learning-for-the-blind-using-the-nvda-screen-reader-bc2a43145c97"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Equalize Digital and WP Buffs",
+   "date": "2024-06-06",
+   "id": 6,
+   "key_points": [
+    "Written for non-developers",
+    "Covers accessibility laws and legal risk",
+    "Step-by-step WordPress testing instructions",
+    "When to fix in-house vs. hire help"
+   ],
+   "my_comments": [
+    "Small business playbook"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Free 44-page ebook helping small businesses understand and implement website accessibility on WordPress: laws and compliance, testing tools and methods, remediation, and recommended accessible themes and plugins.",
+   "tags": [
+    "Learning resources",
+    "Law & policy",
+    "Testing & auditing"
+   ],
+   "title": "The Small Business Accessibility Playbook for WordPress",
+   "type": "guide / ebook",
+   "url": "https://equalizedigital.com/the-small-business-accessibility-playbook-for-wordpress/?utm_source=a11yweekly&utm_medium=sponsored"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "beeps (GOV.UK Design System team)",
+   "date": "2024-10-09",
+   "id": 7,
+   "key_points": [
+    "Escape cancels page loading in browsers",
+    "Escape doesn't count as user activation, so it can't trigger the redirect",
+    "Escape is heavily used by OSes and assistive tech",
+    "Shift chosen as least problematic alternative"
+   ],
+   "my_comments": [
+    "Use of escape key"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explains why GOV.UK's Exit this Page safety component (for people at risk of domestic abuse) uses repeated Shift presses instead of Escape, covering browser behavior, transient-activation rules and assistive technology conflicts.",
+   "tags": [
+    "Focus & keyboard",
+    "HTML & components"
+   ],
+   "title": "Why GOV.UK's Exit this Page component doesn't use the Escape key",
+   "type": "article",
+   "url": "https://beeps.website/blog/2024-10-09-why-govuk-exit-this-page-doesnt-use-escape/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Steve Faulkner",
+   "date": "2024-11-23",
+   "id": 8,
+   "key_points": [
+    "Alt text depends on the image's purpose and context",
+    "Decorative images get empty alt",
+    "Icon buttons describe the function",
+    "Charts need data-based descriptions; use figure/figcaption or links for long ones"
+   ],
+   "my_comments": [
+    "Thorough alt text advice"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Comprehensive alt text guidance originally written for the HTML5 spec (2010-2014), covering about 19 image scenarios with examples and code: decorative images, icon buttons, charts, images of text, and long descriptions.",
+   "tags": [
+    "Images & alt text",
+    "HTML & components"
+   ],
+   "title": "Old alt text advice",
+   "type": "guide",
+   "url": "https://html5accessibility.com/stuff/2024/11/23/old-alt-text-advice/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Patrick Sturdivant (Deque)",
+   "date": "2024-11-26",
+   "id": 9,
+   "key_points": [
+    "Seat controls lacked tactile indicators",
+    "EU rules may exempt aircraft entertainment systems",
+    "Braille labeling inconsistent across airlines",
+    "United Airlines leads on accessible IFE and Braille"
+   ],
+   "my_comments": [
+    "Experience of blind person traveling (there’s also a part 1 and 2, which are also great)"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A blind traveler's account of his return flight from Germany to Texas, covering Frankfurt airport and business-class travel, and proposing improvements for airlines such as Braille cabin labeling, accessible in-flight entertainment and clearer seat-belt alerts.",
+   "tags": [
+    "Lived experience & culture",
+    "Screen readers & braille"
+   ],
+   "title": "Patrick's European vacation: traveling internationally as a person with a disability (Part Three)",
+   "type": "article / personal story",
+   "url": "https://www.deque.com/blog/patricks-european-vacation-my-experience-traveling-internationally-as-a-person-with-a-disability-part-three-the-conclusion/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "TPGi (now Vispero)",
+   "date": "2023-06",
+   "id": 10,
+   "my_comments": [
+    "In-depth article about label positioning with form control"
+   ],
+   "original_url": "https://www.tpgi.com/assume-the-position-a-labelling-story/",
+   "page_status": "moved",
+   "section": "General accessibility links",
+   "status_note": "TPGi blog moved to Vispero; the new page couldn't be read automatically",
+   "tags": [
+    "Forms",
+    "HTML & components"
+   ],
+   "title": "Assume the Position: A Labeling Story",
+   "type": "article",
+   "url": "https://vispero.com/resources/assume-the-position-a-labelling-story/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Jonathan Hassell (Hassell Inclusion)",
+   "date": "2021-02-10",
+   "id": 11,
+   "key_points": [
+    "Testing finds problems; fixing needs organizational commitment",
+    "AIPM weighs affected audience, impact and cost",
+    "Enables realistic budgeting for fixes",
+    "Remediating organizations move toward prevention"
+   ],
+   "my_comments": [
+    "AIPM - matrix for determining who to prioritize AX fixes"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues accessibility testing is pointless without remediation, citing widespread failures after the UK 2020 public-sector accessibility deadline. Introduces the Accessibility Issue Prioritisation Matrix (AIPM) to prioritize fixes by audience affected, severity of impact and cost to fix.",
+   "tags": [
+    "Programs & process",
+    "Testing & auditing"
+   ],
+   "title": "The goal of accessibility isn't to find issues, it's to fix them",
+   "type": "article",
+   "url": "https://www.hassellinclusion.com/blog/accessibilitys-goal-is-to-fix-issues-not-just-find-them/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Domingos de Oliveira (netz-barrierefrei.de)",
+   "id": 12,
+   "my_comments": [
+    "What AX testing can and can’t do"
+   ],
+   "page_status": "unreadable",
+   "section": "General accessibility links",
+   "status_note": "Site timed out when fetched",
+   "tags": [
+    "Testing & auditing"
+   ],
+   "title": "What automated accessibility testing can and can't do",
+   "type": "article",
+   "url": "https://www.netz-barrierefrei.de/en/auto-testing.html?ref=accessible-mobile-apps-weekly.ghost.io"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Google (Android Accessibility Help)",
+   "id": 13,
+   "key_points": [
+    "Gen-AI image descriptions",
+    "Punctuation verbosity: Some / Most / All",
+    "'Read from focused item' via triple-tap",
+    "New Braille text-selection gestures"
+   ],
+   "my_comments": [
+    "What’s new with Talkback"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Release notes for TalkBack 15.0, Android's screen reader: generative-AI image descriptions (server-side or on-device on Pixel 9), punctuation verbosity controls, 'Read from next' renamed 'Read from focused item', and new Braille selection gestures.",
+   "tags": [
+    "Android",
+    "Screen readers & braille"
+   ],
+   "title": "What's new with TalkBack 15.0",
+   "type": "documentation",
+   "url": "https://support.google.com/accessibility/android/answer/14997212?hl=en"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Dani Devesa Derksen-Staats (Accessibility up to 11)",
+   "date": "2024-12-06",
+   "id": 14,
+   "key_points": [
+    "Unlabeled icon buttons are a frequent miss",
+    "Grouping elements cuts VoiceOver swipes",
+    "Custom components need explicit accessibility setup",
+    "Support the largest Dynamic Type sizes",
+    "Test manually with VoiceOver"
+   ],
+   "my_comments": [
+    "A bunch of iOS AX tips with links to other resources"
+   ],
+   "original_url": "https://dadederk.github.io/post/2024-12-06-01/",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A 24-day series on common iOS accessibility issues and fixes for UIKit and SwiftUI: unlabeled elements, header traits, images, buttons, grouping, toggles, modals, contrast, touch targets, Dynamic Type and Reduce Motion, with links to further resources.",
+   "tags": [
+    "iOS",
+    "Learning resources"
+   ],
+   "title": "Advent of iOS Accessibility",
+   "type": "guide / series",
+   "url": "https://accessibilityupto11.com/post/2024-12-06-01/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Bas Thomas (Bas Broek)",
+   "date": "2024-09-27",
+   "id": 15,
+   "key_points": [
+    "VoiceOver support is a foundation for Voice Control",
+    "Combining elements helps VoiceOver but can break Voice Control",
+    "Voice Control lacks affordances for secondary/'ghost' actions",
+    "Pragmatic compromise across assistive technologies"
+   ],
+   "my_comments": [
+    "Bas’ Blog - a lot on iOS AX tips"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Documents building an iOS survey component and the conflicting requirements of VoiceOver and Voice Control: combining elements helps VoiceOver but can hide actions from Voice Control. Settles on a balanced compromise and calls for better Voice Control documentation.",
+   "tags": [
+    "iOS",
+    "Screen readers & braille",
+    "Voice & switch control"
+   ],
+   "title": "Optimizing for VoiceOver and Voice Control",
+   "type": "article",
+   "url": "https://www.basbroek.nl/optimizing-assistive-technology"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Tj Squires (TPGi / Vispero)",
+   "date": "2024-12-19",
+   "id": 16,
+   "key_points": [
+    "Check client privacy before using AI",
+    "Less reliance on sighted colleagues",
+    "Compare AI descriptions with alt text",
+    "AI can hallucinate; can't judge contrast"
+   ],
+   "my_comments": [
+    "How blind engineer is using AI to test accessibility of photos"
+   ],
+   "original_url": "https://www.tpgi.com/putting-ai-to-the-accessibility-test/",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A blind accessibility engineer describes using generative AI (JAWS PictureSmart) in testing: analyzing screenshots, comparing visual vs. programmatic information, and checking alt text, while stressing client privacy and verifying AI output.",
+   "tags": [
+    "AI",
+    "Testing & auditing",
+    "Screen readers & braille",
+    "Images & alt text"
+   ],
+   "title": "Putting AI to the (Accessibility) Test",
+   "type": "article",
+   "url": "https://vispero.com/resources/putting-ai-to-the-accessibility-test/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Florian Schroiff (The A11Y Collective)",
+   "date": "2024-12-05",
+   "id": 17,
+   "key_points": [
+    "Live regions announce updates without moving focus",
+    "Choose polite vs assertive by urgency",
+    "aria-atomic and aria-relevant control scope",
+    "Test in NVDA, JAWS and VoiceOver"
+   ],
+   "my_comments": [
+    "Aria-live"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Guide to using ARIA live regions to announce dynamic content to screen reader users: aria-live values off/polite/assertive, aria-atomic and aria-relevant, code examples, common mistakes and testing across screen readers.",
+   "tags": [
+    "ARIA",
+    "Screen readers & braille"
+   ],
+   "title": "The Complete Guide to ARIA Live Regions for Developers",
+   "type": "guide",
+   "url": "https://www.a11y-collective.com/blog/aria-live/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Ashlee M Boyer",
+   "date": "2024-12-14",
+   "id": 18,
+   "key_points": [
+    "AI personas can't authentically tell disabled people's stories",
+    "Root problem is systemic ableism",
+    "Automated tools catch only about 13-40% of issues",
+    "Hire disabled accessibility experts instead"
+   ],
+   "my_comments": [
+    "Mentions that testing at most can find 40% of issues"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Critiques an 'a11y-AI' tool that uses AI-generated disabled personas, arguing synthetic characters can't represent disabled people's experiences or replace human expertise, and that accessibility problems stem from ableism, not lack of awareness.",
+   "tags": [
+    "AI",
+    "Testing & auditing",
+    "Lived experience & culture"
+   ],
+   "title": "How to Dehumanize Accessibility with AI",
+   "type": "article / opinion",
+   "url": "https://ashleemboyer.com/blog/how-to-dehumanize-accessibility-with-ai"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Meryl Evans (Equal Entry)",
+   "date": "2024-12-05",
+   "id": 19,
+   "key_points": [
+    "Captions sanitized while audio unchanged",
+    "FCC complaints require excessive detail",
+    "Little oversight of broadcaster fixes",
+    "Streaming platforms offer easier flagging"
+   ],
+   "my_comments": [
+    "Equal Entry - I like their legal discussions in general"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Describes the burdensome FCC captioning complaint process under the CVAA, using the author's report about ION TV censoring profanity in captions but not audio. Argues the process demands too much from disabled consumers and lacks follow-up to confirm fixes.",
+   "tags": [
+    "Law & policy",
+    "Deaf & hard of hearing"
+   ],
+   "title": "Headaches with FCC Reporting on Captioning Problems Per CVAA",
+   "type": "article",
+   "url": "https://equalentry.com/captioning-problems-fcc-reporting/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Carme Mias",
+   "date": "2024-12-23",
+   "id": 20,
+   "key_points": [
+    "95.9% of top 1M homepages have errors",
+    "Top failures: contrast, alt text, form labels, empty links/buttons",
+    "About 25% of the UK population reports a disability",
+    "Developers are the last link in the chain"
+   ],
+   "my_comments": [
+    "Gives details about top AX issues"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Uses WebAIM Million data (95.9% of top homepages have detectable errors, about 56 per page) to argue that the most common failures (low contrast, missing alt text, unlabeled forms) are easy to fix, and that developers must take ownership.",
+   "tags": [
+    "Testing & auditing",
+    "Statistics"
+   ],
+   "title": "Why are we so rubbish at accessibility?",
+   "type": "article",
+   "url": "https://carmemias.com/why-are-we-so-rubbish-at-accessibility/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Andrew Downie (OZeWAI)",
+   "date": "2024-12-22",
+   "id": 21,
+   "key_points": [
+    "Skip links satisfy WCAG 2.4.1 Bypass Blocks",
+    "Keyboard-only users benefit most",
+    "Hidden skip links are a problem for sighted keyboard users",
+    "Consider several skip links on long pages"
+   ],
+   "my_comments": [
+    "In-depth discussion about skip links for keyboard-only users",
+    "Gets me thinking why regions aren’t expected to be focusable"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues skip links should be visible rather than hidden until focus, since keyboard-only users benefit most from them, while screen reader users have other navigation methods. Recommends multiple skip links on long pages.",
+   "tags": [
+    "Focus & keyboard",
+    "HTML & components"
+   ],
+   "title": "Don't Hide Skip Links",
+   "type": "article",
+   "url": "https://ozewai.org/blog/technical-articles/dont-hide-skip-links/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "The A11Y Collective",
+   "date": "2024-12-09",
+   "id": 22,
+   "key_points": [
+    "Tools like Seeing AI and Lookout help but aren't infallible",
+    "Speech recognition struggles with accents and noise",
+    "Automated 'fixes' can break assistive tech",
+    "Training-data bias",
+    "Include disabled people throughout, not just at the end"
+   ],
+   "my_comments": [
+    "Discusses considerations when using AI for accessibility"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Examines how AI can help accessibility (image description, speech recognition, adaptive interfaces) while addressing limitations: errors, accent and noise problems, automated 'fixes' that interfere with assistive tech, privacy and training-data bias. Stresses involving disabled people throughout development.",
+   "tags": [
+    "AI"
+   ],
+   "title": "AI and Accessibility: Ethical Considerations and Solutions",
+   "type": "article",
+   "url": "https://www.a11y-collective.com/blog/artificial-intelligence-accessibility/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Kyle Wiggers (TechCrunch)",
+   "date": "2025-01-03",
+   "id": 23,
+   "key_points": [
+    "$1M penalty",
+    "Deceptive claims of compliance",
+    "Undisclosed paid reviews",
+    "NFB called its marketing disrespectful and misleading"
+   ],
+   "my_comments": [
+    "Interesting that only 1 company was targeted"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "The FTC fined overlay vendor accessiBe $1 million for falsely claiming its AI plug-in makes sites WCAG/ADA compliant and for presenting sponsored reviews as independent. The order bars overstating capabilities and requires endorsement disclosures.",
+   "tags": [
+    "Overlays",
+    "Law & policy",
+    "AI"
+   ],
+   "title": "FTC orders AI accessibility startup accessiBe to pay $1M for misleading advertising",
+   "type": "news",
+   "url": "https://techcrunch.com/2025/01/03/ftc-orders-ai-accessibility-startup-accessibe-to-pay-1m-for-misleading-advertising/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Steve Faulkner",
+   "date": "2025-01-02",
+   "id": 24,
+   "key_points": [
+    "Non-generic child elements fragment link announcements",
+    "Use span or role=none as a workaround",
+    "WebKit bug filed"
+   ],
+   "my_comments": [
+    "Issue with links on VO in iOS"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Documents an iOS VoiceOver/WebKit bug where links containing non-generic HTML elements are announced and counted as multiple links. Workaround: use generic elements (span) or role=\"none\"; a WebKit bug was filed.",
+   "tags": [
+    "iOS",
+    "Screen readers & braille",
+    "HTML & components"
+   ],
+   "title": "super short note on links in iOS with VoiceOver",
+   "type": "article",
+   "url": "https://html5accessibility.com/stuff/2025/01/02/super-short-note-on-links-in-ios-with-voiceover/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Natalie Stormann (Slack Engineering)",
+   "date": "2025-01-07",
+   "id": 25,
+   "key_points": [
+    "Axe + Playwright integration",
+    "Non-blocking suite with exclusion lists",
+    "Check only after full render to avoid false positives",
+    "Jira automation for triage",
+    "Automation doesn't replace human judgment"
+   ],
+   "my_comments": [
+    "Slack using AXE testing"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "How Slack added Axe checks to its Playwright end-to-end tests to complement manual testing toward WCAG 2.1: why they moved off Jest/RTL, excluding known issues, filtering to critical violations, running checks after full render, and a Jira triage workflow.",
+   "tags": [
+    "Testing & auditing"
+   ],
+   "title": "Automated Accessibility Testing at Slack",
+   "type": "article / case study",
+   "url": "https://slack.engineering/automated-accessibility-testing-at-slack/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Whitney Lewis (Pope Tech)",
+   "date": "2025-01-09",
+   "id": 26,
+   "key_points": [
+    "Automated: fast, consistent, incomplete",
+    "Manual: slower but judges real impact and AT compatibility",
+    "Start with WAVE",
+    "Monthly scans + annual manual sample testing"
+   ],
+   "my_comments": [
+    "Automated and manual testing working together"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explains the strengths and limits of automated vs. manual accessibility testing and how combining them gives breadth and depth. Suggests a realistic strategy: monthly automated scans, annual manual testing of sample pages, and testing changes before release.",
+   "tags": [
+    "Testing & auditing"
+   ],
+   "title": "Automated and manual accessibility testing work best together",
+   "type": "article",
+   "url": "https://blog.pope.tech/2025/01/09/automated-and-manual-accessibility-testing-work-best-together/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Salma Alam-Naylor (whitep4nth3r)",
+   "date": "2025-02-04",
+   "id": 27,
+   "key_points": [
+    "Learn Talon's alphabet with deliberate practice",
+    "Rango for browser navigation",
+    "Start with small tasks",
+    "Expect a learning curve; combine tools"
+   ],
+   "my_comments": [
+    "Account of how a software engineer codes with voice"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A developer with severe hand pain describes learning to code by voice with Talon and Cursorless, what didn't work, and practical advice for others.",
+   "tags": [
+    "Voice & switch control",
+    "Lived experience & culture"
+   ],
+   "title": "How I learned to code with my voice",
+   "type": "article / personal story",
+   "url": "https://whitep4nth3r.com/blog/how-i-learned-to-code-with-my-voice/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Karl Groves and 1,000+ signatories",
+   "id": 28,
+   "key_points": [
+    "Overlays can't deliver WCAG compliance",
+    "Automated repairs fail for images, forms, keyboard, dynamic content",
+    "Toolbars duplicate existing assistive tech",
+    "Privacy concerns from disability detection/tracking"
+   ],
+   "my_comments": [
+    "Issues with overlays",
+    "Article describing lawsuits with overlays: https://www.lflegal.com/2025/02/userway-overlay-lawsuit/"
+   ],
+   "page_status": "ok",
+   "related": {
+    "author": "Lainey Feingold (Law Office of Lainey Feingold)",
+    "date": "2025-02-16",
+    "summary": "A small online florist (BloomsyBox) filed a class action against overlay vendor UserWay after being sued by a blind user despite paying for the overlay; alleges false claims of lawsuit protection. Notes over 1,000 2024 ADA suits against sites using overlays.",
+    "title": "Another Web Access Overlay Company Sued by a Small Business",
+    "url": "https://www.lflegal.com/2025/02/userway-overlay-lawsuit/"
+   },
+   "section": "General accessibility links",
+   "summary": "Open letter signed by 1,000+ accessibility professionals explaining why accessibility overlays can't make sites compliant, can worsen the experience for disabled users, raise privacy concerns and use deceptive marketing. Includes testimony from disabled users.",
+   "tags": [
+    "Overlays",
+    "Law & policy"
+   ],
+   "title": "Overlay Fact Sheet",
+   "type": "resource / open letter",
+   "url": "https://overlayfactsheet.com/en/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Christian 'Schepp' Schaefer",
+   "date": "2025-02-17",
+   "id": 29,
+   "key_points": [
+    "Find-in-page is a real navigation strategy",
+    "hidden=until-found makes hidden text searchable",
+    "Chromium-only support at time of writing",
+    "aria-label as interim fallback"
+   ],
+   "my_comments": [
+    "Find-in-page accessibility",
+    "Hidden=”until-found”"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Notes that some blind users navigate primarily with the browser's find-in-page, and proposes hidden=\"until-found\" so visually hidden labels (e.g., on icon-only buttons) can still be found by search.",
+   "tags": [
+    "HTML & components",
+    "Screen readers & braille"
+   ],
+   "title": "Rethinking Find-in-Page Accessibility: Making Hidden Text Work for Everyone",
+   "type": "article",
+   "url": "https://schepp.dev/posts/rethinking-find-in-page-accessibility-making-hidden-text-work-for-everyone/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Martin Underhill (tempertemper)",
+   "date": "2025-02-28",
+   "id": 30,
+   "key_points": [
+    "Menubars = actions; navigation = links",
+    "W3C example needs 70+ lines of JS",
+    "Arrow-key behavior conflicts with Tab expectations",
+    "Most sites never need a menubar"
+   ],
+   "my_comments": [
+    "Questioning menubar W3C example"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues against using the ARIA menubar pattern for website navigation: menubars are for application actions, while site navigation should be simple lists of links. The menubar's arrow-key model confuses keyboard and screen reader users.",
+   "tags": [
+    "ARIA",
+    "HTML & components",
+    "Focus & keyboard"
+   ],
+   "title": "There's no such thing as 'menubar navigation'",
+   "type": "article",
+   "url": "https://www.tempertemper.net/blog/theres-no-such-thing-as-menubar-navigation"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Nat Tarnoff",
+   "date": "2025-03-03",
+   "id": 31,
+   "key_points": [
+    "Native label with for/id",
+    "Use specific input types",
+    "Use autocomplete tokens",
+    "Accessibility overlaps with security"
+   ],
+   "my_comments": [
+    "Nice article about input"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explains WCAG 1.3.5 Identify Input Purpose: native labels, correct input types and autocomplete attributes, and how autocomplete supports independence, password managers and security.",
+   "tags": [
+    "Forms",
+    "WCAG & standards"
+   ],
+   "title": "A11y 101: 1.3.5 Identify Input Purpose",
+   "type": "guide",
+   "url": "https://tarnoff.info/2025/03/03/a11y-101-1-3-5-identify-input-purpose/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Caitlin de Rooij (The A11Y Collective)",
+   "date": "2025-02-24",
+   "id": 32,
+   "key_points": [
+    "Many more people than the ~13% with cognitive disabilities benefit",
+    "Reduce overload, manage focus, allow time",
+    "Plain language, consistent navigation, clear errors",
+    "Test with people who have cognitive disabilities"
+   ],
+   "my_comments": [
+    "Nice overview of how to make web/mobile products accessible for people with cognitive disabilities"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Guide to cognitive accessibility: how cognitive disabilities affect web use, relevant WCAG 2.2 criteria, design patterns (plain language, consistent navigation, forgiving forms, memory aids) and testing with real users.",
+   "tags": [
+    "Cognitive, reading & mental health",
+    "Visual design & color"
+   ],
+   "title": "Best Practices for Cognitive Accessibility in Web Design",
+   "type": "guide",
+   "url": "https://www.a11y-collective.com/blog/cognitive-accessibility/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Dave Davies",
+   "date": "2025-01-31",
+   "id": 33,
+   "key_points": [
+    "Ratio measures luminance difference, not hue",
+    "Green ~72%, red ~21%, blue ~7% of luminance",
+    "~1 in 12 men have colour vision deficiency",
+    "4.5:1 = 3:1 baseline adjusted for vision loss"
+   ],
+   "my_comments": [
+    "Nice in-depth discussion in text color-contrast, esp motivation behind 4.5:1 rule"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explains the science behind WCAG's 4.5:1 contrast ratio: relative luminance (brightness, not hue), how red/green/blue are weighted, colour vision deficiency, and how the standard evolved from a 3:1 baseline adjusted for reduced vision. Includes practical tools.",
+   "tags": [
+    "Visual design & color",
+    "WCAG & standards"
+   ],
+   "title": "WCAG Colour Contrast: What does the 4.5:1 ratio actually mean?",
+   "type": "article",
+   "url": "https://davedavies.dev/posts/wcag-colour-contrast-explained/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Michelle Neysa (AccessTime)",
+   "date": "2025-02-17",
+   "id": 34,
+   "key_points": [
+    "No more portrait-only lockouts",
+    "Aligns with WCAG 2.1 Orientation",
+    "Test across orientations; use adaptive layouts",
+    "Benefits users with mounted devices and motor/visual needs"
+   ],
+   "my_comments": [
+    "Android 16 won’t allow locking in portrait and landscape mode"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Android 16 removes apps' ability to lock orientation and resizability on large screens, forcing adaptive layouts. That helps foldables and people who depend on landscape mode (e.g., mounted devices, motor or vision needs), aligning with WCAG 1.3.4 Orientation.",
+   "tags": [
+    "Android",
+    "Mobile apps"
+   ],
+   "title": "Android 16's Transition to Adaptive Apps: A Major Victory for Accessibility",
+   "type": "article",
+   "url": "https://www.accesstime.co/blog/android-16-upgrade"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "The A11Y Collective",
+   "date": "2025-03-07",
+   "id": 35,
+   "key_points": [
+    "Links an element to descriptive text by ID",
+    "Pitfalls: overuse, broken IDs, repeating the label",
+    "Keep descriptions concise",
+    "Prefer native HTML; visible descriptions help everyone"
+   ],
+   "my_comments": [
+    "Aria-describedby"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "How to use aria-describedby to link elements to supplementary descriptive text for screen reader users, with examples for forms, buttons and dialogs, common mistakes, and testing advice.",
+   "tags": [
+    "ARIA"
+   ],
+   "title": "Implementing aria-describedby for Web Accessibility",
+   "type": "guide",
+   "url": "https://www.a11y-collective.com/blog/aria-describedby/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Joe Dolson",
+   "date": "2025-03",
+   "id": 36,
+   "key_points": [
+    "Every organization struggles with accessibility",
+    "WordPress 6.8 ships ~95 accessibility fixes",
+    "Critique exposes needed effort, not blame",
+    "Even accessibility-focused orgs face constraints"
+   ],
+   "my_comments": [
+    "Like his statement that accessibility has to be done with intention"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Reflections after the CSUN Assistive Technology Conference on how shared struggles build community, WordPress 6.8's ~95 accessibility improvements, and why publicly critiquing site accessibility (on The Accessibility Show) is about showing the intentional work required.",
+   "tags": [
+    "Programs & process",
+    "Community & careers"
+   ],
+   "title": "Because we're not alone (reflections on CSUN)",
+   "type": "article / reflection",
+   "url": "https://www.joedolson.com/2025/03/because-were-not-alone/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Abra",
+   "id": 37,
+   "key_points": [
+    "Free intro course",
+    "Paid courses ~€60-150; bundle ~€180",
+    "iOS and Android specific training",
+    "From the team behind Appt"
+   ],
+   "my_comments": [
+    "Mobile ax courses"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "E-learning platform for mobile app accessibility with a free 45-minute kickoff course and paid courses on testing, common issues and platform-specific iOS/Android training, with certificates. Instructors are involved in the W3C Mobile Accessibility Task Force.",
+   "tags": [
+    "Mobile apps",
+    "Learning resources"
+   ],
+   "title": "Abra Academy: learn how to make your apps accessible",
+   "type": "course / e-learning",
+   "url": "https://academy.abra.ai/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Access Armada",
+   "date": "2025-03-17",
+   "id": 38,
+   "key_points": [
+    "Use semantic HTML, not div soup",
+    "Use Fragments to avoid excess nesting",
+    "ARIA misuse harms users",
+    "Manage focus on route changes"
+   ],
+   "my_comments": [
+    "Common ax issues when using React"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues the real question is whether React makes accessible apps easier or harder. Common React problems: div soup, weak semantics, ARIA misuse, SPA route-change focus management and client-side rendering performance.",
+   "tags": [
+    "HTML & components"
+   ],
+   "title": "Is React Accessible? That's the Wrong Question",
+   "type": "article",
+   "url": "https://www.accessarmada.com/blog/is-react-accessible-thats-the-wrong-question/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Anne-Mieke Bovelett",
+   "date": "2025-03-14",
+   "id": 39,
+   "key_points": [
+    "Beauty and accessibility aren't in conflict",
+    "Honors prefers-reduced-motion",
+    "Persistent advocacy changes organizations"
+   ],
+   "my_comments": [
+    "Github experience"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Uses GitHub's redesigned, animated signup flow, which respects reduced-motion preferences, as proof that accessible design and visual beauty can coexist.",
+   "tags": [
+    "Visual design & color"
+   ],
+   "title": "Designers, your excuse is gone. Stunning, animated and accessible. Yes, you can!",
+   "type": "article",
+   "url": "https://annebovelett.eu/designers-your-excuse-is-gone-stunning-animated-and-accessible-yes-you-can/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Access Aces",
+   "id": 40,
+   "key_points": [
+    "AT detection discloses disability without consent",
+    "Separate accessible versions are inferior",
+    "Assistance apps collect sensitive data",
+    "Overlays can track users across sites"
+   ],
+   "my_comments": [
+    "Privacy for disabled people on apps",
+    "Interesting argument for why shouldn’t track if someone is using a screen reader"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A blind author argues that detecting assistive technology violates privacy by forcing disability disclosure, and that separate 'accessible' versions, remote sighted-assistance apps, overlays and connected devices trade disabled people's data for access.",
+   "tags": [
+    "Lived experience & culture"
+   ],
+   "title": "What disabled people have to give up in the name of accessibility (privacy rights of people with disabilities)",
+   "type": "article / opinion",
+   "url": "https://accessaces.com/what-disabled-people-have-to-give-up-in-the-name-of-accessibility/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Eevis Panula",
+   "date": "2025-03-31",
+   "id": 41,
+   "key_points": [
+    "AI repeats inaccessible patterns from training data",
+    "Redundant contentDescription hurts screen reader users",
+    "focusable() + clickable() creates duplicate tab stops",
+    "Test with multiple assistive technologies"
+   ],
+   "my_comments": [
+    "Nice demonstration explaining why certain innocuous AX code causes problems in Android"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Tests Google's Gemini generating a Jetpack Compose Android app in two iterations. The first had major issues (redundant contentDescriptions, missing scroll, extra focus stops); the second was better, for unclear reasons. Tested with TalkBack, Switch Access and more.",
+   "tags": [
+    "AI",
+    "Android"
+   ],
+   "title": "Does Gemini Generate Accessible Android Apps?",
+   "type": "article",
+   "url": "https://eevis.codes/blog/2025-03-31/does-gemini-create-accessible-android-apps/?ref=accessible-mobile-apps-weekly.ghost.io"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Akash Shukla (TPGi / Vispero)",
+   "date": "2025-04-21",
+   "id": 42,
+   "key_points": [
+    "Name should match or start with visible label",
+    "No interspersed words or reordering",
+    "iOS 18+ Voice Control accepts names that begin with the label"
+   ],
+   "my_comments": [
+    "End of article keeps tips on what to do if visible and ax label can’t match"
+   ],
+   "original_url": "https://www.tpgi.com/how-to-meet-sc-2-5-3-label-in-name/",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explains WCAG 2.5.3 Label in Name: a control's accessible name must contain its visible label so speech-input users can say what they see. Covers common failures (missing names, mismatched text, extra interspersed words, reordering) and best practice of identical or label-first names.",
+   "tags": [
+    "Voice & switch control",
+    "WCAG & standards",
+    "Forms"
+   ],
+   "title": "How to meet SC 2.5.3 Label in Name",
+   "type": "article",
+   "url": "https://vispero.com/resources/how-to-meet-sc-2-5-3-label-in-name/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Blake Watson",
+   "date": "2025-05-04",
+   "id": 43,
+   "key_points": [
+    "Persistent portfolio-building led to a job",
+    "Remote work since 2019",
+    "Means testing creates work disincentives",
+    "Advocates better disability support programs"
+   ],
+   "my_comments": [
+    "Person with spinal muscular atrophy describes their path to employment"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A web developer with spinal muscular atrophy reflects on ten years of employment after six years unemployed, his path into web design, remote work, and how means-tested, state-by-state disability programs discourage employment.",
+   "tags": [
+    "Lived experience & culture"
+   ],
+   "title": "A Decade of Employment",
+   "type": "personal essay",
+   "url": "https://blakewatson.com/journal/a-decade-of-employment/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Alicia Evans (TPGi / Vispero)",
+   "date": "2025-05-14",
+   "id": 44,
+   "key_points": [
+    "fieldset + legend",
+    "aria-required not valid on fieldset",
+    "Required indicator on the legend",
+    "Consider a select instead"
+   ],
+   "my_comments": [
+    "Discussion of required for groups",
+    "I like how in-depth this article is, author clearly has extensive AX experience"
+   ],
+   "original_url": "https://www.tpgi.com/everythings-more-complicated-in-groups-required-groups/",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "How to communicate that a group of radio buttons or checkboxes is required: use fieldset/legend, note aria-required doesn't work on fieldset, put the asterisk on the group label, add 'required' text to the legend, and state rules like 'pick at least one' for checkboxes.",
+   "tags": [
+    "Forms",
+    "ARIA"
+   ],
+   "title": "Everything's More Complicated in Groups: Required Groups",
+   "type": "article",
+   "url": "https://vispero.com/resources/everythings-more-complicated-in-groups-required-groups/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Adrian Roselli",
+   "date": "2025-05",
+   "id": 45,
+   "key_points": [
+    "Pattern of inaccessible platform features",
+    "Experts excluded and dismissed",
+    "Require WCAG AA before shipping"
+   ],
+   "my_comments": [
+    "Request to Google for releases and accessibility"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Criticizes Google for repeatedly shipping web-platform features with accessibility barriers (e.g., toasts, CSS carousels) and sidelining accessibility experts and disabled users; asks that features meet WCAG AA before release.",
+   "tags": [
+    "Programs & process"
+   ],
+   "title": "My Request to Google on Accessibility",
+   "type": "article / opinion",
+   "url": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "W3C Mobile Accessibility Task Force",
+   "date": "2025-05-06",
+   "id": 46,
+   "key_points": [
+    "Covers all WCAG 2.2 A/AA criteria for mobile",
+    "Maps web terminology to screens/views",
+    "Informative guidance only",
+    "Excludes hardware, AAA and wearables"
+   ],
+   "my_comments": [
+    "Draft of Mobile WCAG standards"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "W3C draft note on applying WCAG 2.2 A and AA success criteria to native, mobile web and hybrid apps, replacing web terms (e.g., 'web page') with mobile concepts like screens and views. Informative, not normative.",
+   "tags": [
+    "WCAG & standards",
+    "Mobile apps"
+   ],
+   "title": "Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile)",
+   "type": "standard / W3C note",
+   "url": "https://www.w3.org/TR/wcag2mobile-22/?ref=accessible-mobile-apps-weekly.ghost.io"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Apple Newsroom",
+   "date": "2025-05-13",
+   "id": 47,
+   "key_points": [
+    "Accessibility Nutrition Labels in the App Store",
+    "Magnifier on Mac",
+    "Braille Access note-taker",
+    "Accessibility Reader",
+    "BCI support in Switch Control"
+   ],
+   "my_comments": [
+    "New Apple AX features"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Apple's 2025 accessibility announcements: App Store Accessibility Nutrition Labels, Magnifier for Mac, Braille Access, Accessibility Reader, Live Captions on Apple Watch, Vision Pro zoom and Live Recognition, and Switch Control for brain-computer interfaces.",
+   "tags": [
+    "iOS"
+   ],
+   "title": "Apple unveils powerful accessibility features coming later this year",
+   "type": "press release",
+   "url": "https://www.apple.com/newsroom/2025/05/apple-unveils-powerful-accessibility-features-coming-later-this-year/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Torque, Inc.",
+   "id": 48,
+   "key_points": [
+    "Inspiration for accessible design",
+    "Filter by WCAG level",
+    "English/Japanese"
+   ],
+   "my_comments": [
+    "Website of accessible sites, can filter by WCAG level"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A curated gallery of well-designed websites selected for accessibility, filterable by WCAG level (A/AA/AAA), site type, industry and colour.",
+   "tags": [
+    "Visual design & color",
+    "Learning resources"
+   ],
+   "title": "AAA11Y: Accessible Website Gallery",
+   "type": "gallery / resource",
+   "url": "https://www.aaa11y.com/en/search/?level=aa"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Adrian Roselli",
+   "date": "2025-06-06",
+   "id": 49,
+   "key_points": [
+    "Short messages: focus close button can be fine",
+    "Long/complex content: focus the dialog or heading",
+    "Consider undoability of actions",
+    "Screen readers announce dialog role inconsistently"
+   ],
+   "my_comments": [
+    "Focus in dialogs"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Rejects a single rule for initial focus in modal dialogs: it depends on content type (simple message, interactive, action-required, form), length, and the risk of accidental actions. Includes screen reader testing showing inconsistent dialog-role announcements.",
+   "tags": [
+    "HTML & components",
+    "Focus & keyboard"
+   ],
+   "title": "Where to Put Focus When Opening a Modal Dialog",
+   "type": "article",
+   "url": "https://adrianroselli.com/2025/06/where-to-put-focus-when-opening-a-modal-dialog.html"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Equal Entry",
+   "date": "2025-06-17",
+   "id": 50,
+   "key_points": [
+    "AI augments, not replaces, accessibility expertise",
+    "Combine linting with AI to limit hallucination",
+    "Targets mainstream engineers"
+   ],
+   "my_comments": [
+    "Accessibility Nerd"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Interview with Cameron Cundiff about his Accessibility Nerd projects: Image Describer (a Gemini-based Chrome extension for image descriptions with follow-up questions) and a11y-agent, a CLI that pairs linting with AI to help developers fix issues interactively.",
+   "tags": [
+    "AI",
+    "Images & alt text"
+   ],
+   "title": "From Curiosity to Creation: The Story Behind Accessibility Nerd",
+   "type": "interview",
+   "url": "https://equalentry.com/ai-accessibility/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "The A11Y Collective",
+   "date": "2025-06-26",
+   "id": 51,
+   "key_points": [
+    "Limit data points",
+    "Provide transcripts for complex graphics",
+    "Don't rely on colour alone",
+    "Prefer HTML/SVG over images"
+   ],
+   "my_comments": [
+    "Mentions course for IAAP"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "How to make web infographics accessible: simple design, text transcripts and alt text, 4.5:1 contrast and not relying on colour, controllable animation, semantic HTML/SVG rather than flat images, and testing.",
+   "tags": [
+    "Visual design & color",
+    "Images & alt text",
+    "WCAG & standards"
+   ],
+   "title": "Implement WCAG Rules in Your Infographics",
+   "type": "guide",
+   "url": "https://www.a11y-collective.com/blog/accessible-infographics/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "International Association of Accessibility Professionals (IAAP)",
+   "id": 52,
+   "my_comments": [
+    "CPACC CEAC opportunities"
+   ],
+   "page_status": "unreadable",
+   "section": "General accessibility links",
+   "status_note": "Page content couldn't be extracted (likely rendered by script)",
+   "tags": [
+    "Community & careers",
+    "Learning resources"
+   ],
+   "title": "CPACC Quality Content Providers",
+   "type": "resource list",
+   "url": "https://www.accessibilityassociation.org/cpacc-quality-content-providers"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "TPGi (now Vispero)",
+   "id": 53,
+   "my_comments": [
+    "Good explanation why roles need to be added to correct ax property"
+   ],
+   "original_url": "https://www.tpgi.com/robust-roles-on-android/",
+   "page_status": "moved",
+   "section": "General accessibility links",
+   "status_note": "TPGi blog moved to Vispero; the new page couldn't be read automatically",
+   "tags": [
+    "Android"
+   ],
+   "title": "Robust roles on Android",
+   "type": "article",
+   "url": "https://vispero.com/resources/robust-roles-on-android/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Jason Taylor (UsableNet)",
+   "date": "2025-07-09",
+   "id": 54,
+   "key_points": [
+    "Projected ~4,975 suits in 2025",
+    "New York state courts dominate",
+    "E-commerce ~69% of suits, food service ~18%",
+    "New plaintiff firms entering",
+    "Widgets don't prevent lawsuits"
+   ],
+   "my_comments": [
+    "Mid-year Lawsuit report for 2025"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Over 2,000 digital accessibility lawsuits were filed in the first half of 2025, with a projected ~20% rise for the year. Filings are shifting to state courts (especially New York), e-commerce is the top target, and accessibility widgets still offer no legal protection.",
+   "tags": [
+    "Law & policy",
+    "Statistics"
+   ],
+   "title": "2025 Midyear Accessibility Lawsuit Report: Key Legal Trends",
+   "type": "report",
+   "url": "https://blog.usablenet.com/2025-midyear-accessibility-lawsuit-report-key-legal-trends"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Léonie Watson (TetraLogical)",
+   "date": "2025-08-08",
+   "id": 55,
+   "key_points": [
+    "Technically accessible sites can still lack needed product info",
+    "Agents act for users via conversation",
+    "AI search reducing site traffic",
+    "Open questions on content consistency and legal duty"
+   ],
+   "my_comments": [
+    "Accessibility and agentic web"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Considers how agentic AI (e.g., conversational shopping agents) could help disabled people get things done without navigating websites, while raising concerns about inconsistent content, falling web traffic and unclear legal obligations.",
+   "tags": [
+    "AI"
+   ],
+   "title": "Accessibility and the agentic web",
+   "type": "article",
+   "url": "https://tetralogical.com/blog/2025/08/08/accessibility-and-the-agentic-web/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Hidde de Vries",
+   "date": "2025-08-13",
+   "id": 56,
+   "key_points": [
+    "Conformance = full pages only",
+    "Customization and composition change outcomes",
+    "Context breaks things (e.g., hidden focus indicators)",
+    "Design systems should document what's been tested"
+   ],
+   "my_comments": [
+    "Components and accessibility"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "WCAG conformance applies only to full pages, not components, because accessibility depends on customization, combination and context. Components should be built and documented for accessibility, but real conformance is assessed on the finished experience.",
+   "tags": [
+    "WCAG & standards",
+    "HTML & components",
+    "Programs & process"
+   ],
+   "title": "Can components conform to WCAG?",
+   "type": "article",
+   "url": "https://hidde.blog/component-conformance/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Craig Abbott",
+   "date": "2025-08-20",
+   "id": 57,
+   "key_points": [
+    "'Best practice' implies optional",
+    "Practitioners disagree on it",
+    "It changes with technology",
+    "Alternatives: 'standard of care', 'accessibility issue'"
+   ],
+   "my_comments": [
+    "Nice article about tension with WCAG compliance and being accessible"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues that labeling audit findings 'best practice' makes real barriers sound optional, is inconsistent between practitioners and can sound arrogant. Suggests 'standard of care' or just 'accessibility issues' instead.",
+   "tags": [
+    "WCAG & standards",
+    "Programs & process"
+   ],
+   "title": "\"Best practice\" is just your opinion",
+   "type": "article",
+   "url": "https://www.craigabbott.co.uk/blog/best-practice-is-just-your-opinion/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Google Chrome Developers",
+   "date": "2026-05-28",
+   "id": 58,
+   "key_points": [
+    "Lighthouse audits",
+    "Accessibility tree inspection",
+    "Emulate vision deficiencies / reduced motion",
+    "Contrast issue detection"
+   ],
+   "my_comments": [
+    "Chrome AX reference"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Reference for Chrome DevTools accessibility features: Lighthouse audits, the Accessibility pane and accessibility tree, ARIA inspection, emulating vision deficiencies and media preferences, reflow testing and finding low-contrast text.",
+   "tags": [
+    "Testing & auditing",
+    "Learning resources"
+   ],
+   "title": "Accessibility features reference (Chrome DevTools)",
+   "type": "documentation",
+   "url": "https://developer.chrome.com/docs/devtools/accessibility/reference"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Open UI Community Group (W3C)",
+   "id": 59,
+   "key_points": [
+    "Specs for native UI components",
+    "Research across 30+ components",
+    "Proposals like customizable select",
+    "Open to contributors"
+   ],
+   "my_comments": [
+    "W3C community effort to improve UI components"
+   ],
+   "my_label": "Open UI Project",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "W3C community group working to let developers style and extend built-in UI controls (select, checkbox, date pickers) by specifying their parts, states, behaviors and accessibility requirements, with research on 30+ components.",
+   "tags": [
+    "HTML & components",
+    "WCAG & standards"
+   ],
+   "title": "Open UI",
+   "type": "organization / standards",
+   "url": "https://open-ui.org/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Ars Technica",
+   "date": "2025-09",
+   "id": 60,
+   "my_comments": [
+    "Neurodivergent benefiting from AI"
+   ],
+   "page_status": "blocked",
+   "section": "General accessibility links",
+   "status_note": "Site blocks automated reading",
+   "tags": [
+    "AI",
+    "Cognitive, reading & mental health"
+   ],
+   "title": "Study finds neurodiverse workers more satisfied with AI assistants",
+   "type": "news",
+   "url": "https://arstechnica.com/information-technology/2025/09/study-finds-neurodiverse-workers-more-satisfied-with-ai-assistants/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Craig Abbott",
+   "date": "2025-09-14",
+   "id": 61,
+   "key_points": [
+    "LLM output is inconsistent",
+    "Too slow for fast screen reader users",
+    "Hardware/energy/cost burden on disabled users",
+    "Teach inclusive authoring instead"
+   ],
+   "my_comments": [
+    "Argument not to use AI for screen reader users"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues against building LLMs into screen readers: output is inconsistent, it would be costly to build and test, too slow at 600-800 wpm listening speeds, energy-hungry, and would raise costs for disabled users. The real fix is better human-authored content.",
+   "tags": [
+    "AI",
+    "Screen readers & braille"
+   ],
+   "title": "Screen readers do not need to be saved by AI",
+   "type": "article / opinion",
+   "url": "https://www.craigabbott.co.uk/blog/screen-readers-do-not-need-saved-by-ai/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Shawn Lawton Henry (W3C WAI)",
+   "date": "2025-05-06",
+   "id": 62,
+   "key_points": [
+    "No separate mobile guidelines",
+    "Covers phones, tablets, wearables, appliances",
+    "Links to WCAG2Mobile guidance"
+   ],
+   "my_comments": [
+    "W3C Mobile AX standards"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explains that W3C covers mobile accessibility through existing standards (WCAG, UAAG, ATAG, WAI-ARIA) rather than separate mobile guidelines, and points to WCAG2Mobile guidance and the Mobile Accessibility Task Force.",
+   "tags": [
+    "WCAG & standards",
+    "Mobile apps"
+   ],
+   "title": "Mobile Accessibility at W3C",
+   "type": "standards overview",
+   "url": "https://www.w3.org/WAI/standards-guidelines/mobile/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt (guest: Daniel Devesa Derksen-Staats)",
+   "date": "2025-11-01",
+   "id": 63,
+   "key_points": [
+    "Awareness is the main barrier",
+    "Native components reduce issues",
+    "Individual developers drive change",
+    "EAA adds momentum"
+   ],
+   "my_comments": [
+    "A lot of Mobile AX goodies in here"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Newsletter issue with iOS accessibility takeaways from SwiftLeeds (developers underestimate issues; native components help) plus recent iOS and Android resources on custom controls, keyboard access and focus management.",
+   "tags": [
+    "Mobile apps",
+    "Community & careers"
+   ],
+   "title": "Appt Mobile Accessibility News, Issue #75",
+   "type": "newsletter",
+   "url": "https://www.appt.news/appt-news-accessible-mobile-apps-issue-75/?ref=accessible-mobile-apps-weekly-newsletter"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Diogo Melo (Axess Lab)",
+   "date": "2025-11-04",
+   "id": 64,
+   "key_points": [
+    "Default VoiceOver order didn't match the domain",
+    "accessibilitySortPriority changes order without changing layout",
+    "Applied to bench players too"
+   ],
+   "my_comments": [
+    "Nice article about Forza football ax features on iOS"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "How Forza Football made visual team lineups work with VoiceOver by using accessibilitySortPriority so players are read goalkeeper-to-forward, matching football conventions rather than default reading order.",
+   "tags": [
+    "iOS",
+    "Screen readers & braille"
+   ],
+   "title": "Accessible iOS design: how Forza Football included blind users",
+   "type": "case study",
+   "url": "https://axesslab.com/designing-accessible-football-lineups-for-blind-users-lessons-from-forza-football/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Access * Ability newsletter",
+   "date": "2025-11-05",
+   "id": 65,
+   "key_points": [
+    "Preserve carts/forms across login",
+    "Extra burden for AT users",
+    "Cart abandonment costs revenue",
+    "E-commerce is most-sued sector"
+   ],
+   "my_comments": [
+    "Mentions that 70% of sites sued in 2025 were for e-commerce"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Losing a cart or form progress when a user logs in forces disabled users to redo effortful work. Login should be 'a continuation point, not a reset point'; preserve progress or warn users.",
+   "tags": [
+    "HTML & components",
+    "Cognitive, reading & mental health"
+   ],
+   "title": "Why Separate Guest and Logged In States Create Accessibility Barriers",
+   "type": "article",
+   "url": "https://buttondown.com/access-ability/archive/why-separate-guest-and-logged-in-states-create/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Mike Gower (IBM Design)",
+   "date": "2025-04-22",
+   "id": 66,
+   "key_points": [
+    "Inverted chat order hurts keyboard users",
+    "Too many feedback buttons add noise",
+    "Floating launchers create hard-to-reach tab stops",
+    "Docked panels avoid obscured focus",
+    "Region-level keyboard navigation"
+   ],
+   "my_comments": [
+    "AI and AX messaging"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Nine design considerations for accessible AI chat interfaces, from keyboard navigation of inverted chat logs to feedback-button clutter, voice input, input-area controls, floating launcher tab stops and docked panels, with good and bad examples.",
+   "tags": [
+    "AI",
+    "HTML & components",
+    "Focus & keyboard"
+   ],
+   "title": "Catching up on accessibility with AI chat",
+   "type": "article",
+   "url": "https://medium.com/design-ibm/catching-up-on-accessibility-with-ai-chat-1129be33c184"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Deeksha Yadav (TPGi / Vispero)",
+   "date": "2025-11-10",
+   "id": 67,
+   "key_points": [
+    "Links go somewhere; buttons do something",
+    "Links need href",
+    "Screen readers announce roles differently",
+    "Not a strict WCAG failure but affects usability"
+   ],
+   "my_comments": [
+    "Nice article about link vs button"
+   ],
+   "original_url": "https://www.tpgi.com/link-vs-button-choosing-the-right-element-for-the-right-job/",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Links navigate to a location (need href and descriptive text); buttons perform actions on the page. Correct semantics matter because screen readers announce roles and users navigate by them, even though misuse isn't strictly a WCAG failure.",
+   "tags": [
+    "HTML & components"
+   ],
+   "title": "Link vs Button: Choosing the Right Element for the Right Job",
+   "type": "article",
+   "url": "https://vispero.com/resources/link-vs-button-choosing-the-right-element-for-the-right-job/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Abra",
+   "date": "2026-02-28",
+   "id": 68,
+   "key_points": [
+    "Manual testing is essential",
+    "One AT at a time, screen by screen",
+    "11 test categories",
+    "Document clearly for prioritization"
+   ],
+   "my_comments": [
+    "Thorough article about how to test for accessibility"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A hands-on manual testing guide for mobile apps with an 11-category checklist (contrast, text, non-text content, media, controls, gestures, status messages, keyboard, screen readers, and more), advising testing screen by screen with one assistive technology at a time.",
+   "tags": [
+    "Mobile apps",
+    "Testing & auditing"
+   ],
+   "title": "Practical guide to mobile accessibility testing",
+   "type": "guide",
+   "url": "https://abra.ai/blog/practical-guide-to-mobile-accessibility-testing"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Diogo Melo (Axess Lab)",
+   "date": "2025-12-05",
+   "id": 69,
+   "key_points": [
+    "Semantics fix multiple assistive technologies at once",
+    "Group and hide decorative elements",
+    "The .isButton trait is recognized by VO, FKA and Voice Control",
+    "Small code changes, big impact"
+   ],
+   "my_comments": [
+    "Nice demonstration of how button traits drastically improve UI"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Starts from a deliberately inaccessible SwiftUI app and shows that two fixes, grouping elements and adding the .isButton trait, made it work with VoiceOver, Full Keyboard Access and Voice Control.",
+   "tags": [
+    "iOS",
+    "Screen readers & braille",
+    "Voice & switch control"
+   ],
+   "title": "How Button Traits can make a chaotic iOS app accessible",
+   "type": "article",
+   "url": "https://axesslab.com/how-button-traits-can-make-a-chaotic-ios-app-accessible/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Emma Camp (Reason)",
+   "date": "2025-12-04",
+   "id": 70,
+   "key_points": [
+    "Elite colleges report very high accommodation rates",
+    "Community colleges report ~3-4%",
+    "Author blames social media and DSM changes",
+    "Argues accommodations can be overused"
+   ],
+   "my_comments": [
+    "Article questioning the rise in disability accommodations at elite colleges"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Opinion piece questioning very high disability-accommodation rates at elite universities (38% at Stanford), mostly for mental health and learning disabilities, attributing them to social media, looser diagnostic criteria and risk-averse affluent families. A contested viewpoint.",
+   "tags": [
+    "Lived experience & culture",
+    "Cognitive, reading & mental health"
+   ],
+   "title": "Why Are 38 Percent of Stanford Students Saying They're Disabled?",
+   "type": "opinion",
+   "url": "https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Ben Wintner (Fast Company)",
+   "date": "2025-12-01",
+   "id": 71,
+   "key_points": [
+    "Universal design often lacks emotional connection",
+    "Design for dignity and belonging",
+    "Emotional connection drives adoption"
+   ],
+   "my_comments": [
+    "Discusses limitation of universal design, not about delighting the user"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues accessible design should go beyond compliance to how products make people feel, citing Michael Graves Design products that meet ADA standards while conveying dignity and pride.",
+   "tags": [
+    "Visual design & color",
+    "Lived experience & culture"
+   ],
+   "title": "The Next Revolution in Design: Emotional Accessibility",
+   "type": "opinion",
+   "url": "https://www.fastcompany.com/91451256/the-next-revolution-in-design-emotional-accessibility"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "John Northup (WebAIM)",
+   "date": "2025-12-22",
+   "id": 72,
+   "key_points": [
+    "AI helps but humans judge quality",
+    "WCAG 2.2 becomes standard",
+    "Prefer native HTML",
+    "Accessibility debt = business risk",
+    "Respect system preferences"
+   ],
+   "my_comments": [
+    "WebAIM 2026 predictions"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "WebAIM's seven predictions for 2026: AI speeds workflows but can't replace expert judgment, WCAG 2.2 becomes the procurement norm, native HTML over custom widgets, accessibility debt treated as business risk, web and native practice converging, respecting user preferences, and WCAG 3 thinking influencing practice early.",
+   "tags": [
+    "WCAG & standards",
+    "AI",
+    "Programs & process"
+   ],
+   "title": "2026 Predictions: The Next Big Shifts in Web Accessibility",
+   "type": "article",
+   "url": "https://webaim.org/blog/2026-predictions/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Russ Weakley (Max Design)",
+   "date": "2025-12-04",
+   "id": 73,
+   "key_points": [
+    "DOM changes update the accessibility tree",
+    "Events cross OS accessibility APIs",
+    "Screen readers queue utterances",
+    "Concurrent, not linear"
+   ],
+   "my_comments": [
+    "Nice explanation of how button works with JavaScript and browser"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Traces a click on an accordion button through hit-testing, JavaScript, DOM updates, accessibility-tree updates, OS accessibility APIs and the screen reader's speech queue, showing these happen concurrently rather than as a simple sequence.",
+   "tags": [
+    "HTML & components",
+    "Screen readers & braille"
+   ],
+   "title": "What really happens when a user clicks an accordion button?",
+   "type": "article",
+   "url": "https://www.maxdesign.com.au/articles/accordion-button.html"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Access Aces",
+   "id": 74,
+   "my_comments": [
+    "Nice narrative about having a service dog at airport"
+   ],
+   "page_status": "unreadable",
+   "section": "General accessibility links",
+   "status_note": "Site rate-limited automated reading",
+   "tags": [
+    "Lived experience & culture"
+   ],
+   "title": "Traveling with a Service Dog, Part 1",
+   "type": "article / personal story",
+   "url": "https://accessaces.com/traveling-with-a-service-dog-part-1/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Katie McDermott (See Me Please)",
+   "date": "2025-03-04",
+   "id": 75,
+   "key_points": [
+    "~75% of low-vision testers strongly preferred dark mode",
+    "Reduces glare and headaches",
+    "WCAG conformance doesn't guarantee usability",
+    "Native dark mode beats inversion/overlays"
+   ],
+   "my_comments": [
+    "Dark mode"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues dark mode is an accessibility need, not a cosmetic preference, based on user testing where it was the most requested feature among low-vision, blind and neurodivergent testers. WCAG doesn't require it, and overlays or colour inversion are poor substitutes for native dark mode.",
+   "tags": [
+    "Visual design & color"
+   ],
+   "title": "Dark Mode: Essential not a Preference",
+   "type": "article",
+   "url": "https://seemeplease.com/blog/dark-mode"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Eric Bailey (Piccalilli)",
+   "date": "2026-01-15",
+   "id": 76,
+   "key_points": [
+    "Never nest interactive elements",
+    "Pseudo-element breakout for card links",
+    "Keep accessible names concise",
+    "Confirm destructive actions"
+   ],
+   "my_comments": [
+    "How to make entire list cell clickable, but have clickable child elements"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Never nest interactive elements; instead use the 'semantic breakout' technique (a pseudo-element stretches the primary link over the card, with z-index keeping secondary actions clickable) to get the look of nested controls accessibly.",
+   "tags": [
+    "HTML & components"
+   ],
+   "title": "Accessible faux-nested interactive controls",
+   "type": "article",
+   "url": "https://piccalil.li/blog/accessible-faux-nested-interactive-controls/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Diogo Melo (Axess Lab)",
+   "date": "2026-01-08",
+   "id": 77,
+   "key_points": [
+    "Label star ratings",
+    "Group product info into one element",
+    "Accessibility actions behave differently per AT",
+    "Voice Control needs visible controls"
+   ],
+   "my_comments": [
+    "Nice article about how to make an iOS app accessible to screen reader and keyboard users"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A blind iOS developer fixes a product list and wishlist for VoiceOver, Full Keyboard Access and Voice Control: star-rating labels, grouping product info, and accessibility actions for cart/wishlist, noting Voice Control needs directly exposed controls.",
+   "tags": [
+    "iOS",
+    "Screen readers & braille",
+    "Voice & switch control"
+   ],
+   "title": "Making an iOS E-Commerce Product List Accessible to VoiceOver and Beyond",
+   "type": "article",
+   "url": "https://axesslab.com/making-an-ios-e-commerce-product-list-accessible-to-voiceover-and-beyond/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Diogo Melo (Axess Lab)",
+   "date": "2026-01-08",
+   "id": 78,
+   "key_points": [
+    "@Environment(\\.accessibilityVoiceOverEnabled)",
+    "Combine elements + custom actions for VO",
+    "Adjustable actions for efficiency",
+    "Each AT gets an optimized model"
+   ],
+   "my_comments": [
+    "Nice article on making iOS app accessible for VoiceOver without detrimentally affecting other assistive technologies"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Shows how to detect when VoiceOver is running (SwiftUI environment value or UIKit notifications) and switch to a combined, actions-based model for VoiceOver while leaving Full Keyboard Access and Voice Control with exposed controls.",
+   "tags": [
+    "iOS",
+    "Screen readers & braille"
+   ],
+   "title": "Optimizing VoiceOver in an iOS E-Commerce App with Conditional Accessibility",
+   "type": "article",
+   "url": "https://axesslab.com/optimizing-voiceover-in-an-ios-e-commerce-app-with-conditional-accessibility/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Eric Bailey",
+   "date": "2026-02-16",
+   "id": 79,
+   "key_points": [
+    "APG demonstrates ARIA; it isn't a pattern library",
+    "Examples have uneven AT support",
+    "Reference only 'About' and 'Keyboard Interaction' sections",
+    "Invest in your own semantic HTML docs"
+   ],
+   "my_comments": [
+    "How to be careful using APG for LLM"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Warns against feeding the whole ARIA Authoring Practices Guide to LLMs because its examples over-favor ARIA and vary in AT support. Recommends pointing LLMs only at pattern descriptions and keyboard-interaction sections, and prioritizing semantic HTML and your own design-system docs.",
+   "tags": [
+    "AI",
+    "ARIA"
+   ],
+   "title": "Here's how to instruct a LLM to reference the ARIA Authoring Practices Guide",
+   "type": "article",
+   "url": "https://ericwbailey.website/published/heres-how-to-instruct-a-llm-to-reference-the-aria-authoring-practices-guide/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Megan Dausch (Helen Keller National Center)",
+   "date": "2026-01-30",
+   "id": 80,
+   "key_points": [
+    "Concise labels matter on braille displays",
+    "Logical, predictable focus",
+    "Dynamic notifications can be missed",
+    "Provide transcripts; test with braille users"
+   ],
+   "my_comments": [
+    "Nice article about braille users"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Braille display users read through a window of 12-80 cells, so verbose labels, unpredictable focus changes and fleeting dynamic content hit them hard. Self-voicing and audio-only interfaces exclude braille and DeafBlind users; include braille users in testing.",
+   "tags": [
+    "Screen readers & braille",
+    "Visual design & color"
+   ],
+   "title": "Between the Dots: What Designers Miss Without Braille Users",
+   "type": "article",
+   "url": "https://www.helenkeller.org/between-the-dots-what-designers-miss-without-braille-users/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Blake Watson",
+   "date": "2026",
+   "id": 81,
+   "key_points": [
+    "Custom assistive tech built in ~8 hours",
+    "AI can democratize AT creation",
+    "Free on GitHub, signed and notarized",
+    "Concerns about AI and developers' futures"
+   ],
+   "my_comments": [
+    "Vibe coding an ax feature"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A developer with spinal muscular atrophy used Claude Code with the GSD workflow to build 'Scroll My Mac', a macOS app for click-and-drag scrolling, in about 8 hours and roughly $80 of usage, and reflects on AI's promise and concerns for disabled makers.",
+   "tags": [
+    "AI",
+    "Lived experience & culture"
+   ],
+   "title": "I used Claude Code and GSD to build the accessibility tool I've always wanted",
+   "type": "article / personal story",
+   "url": "https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Russ Weakley (Max Design)",
+   "date": "2025-12-17",
+   "id": 82,
+   "key_points": [
+    "Highest precedence in name calculation",
+    "Multiple space-separated IDs",
+    "Can reference hidden content",
+    "Can't cross shadow DOM; fails silently"
+   ],
+   "my_comments": [
+    "How aria-labelledby works under the hood"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explains aria-labelledby: it names an element from existing on-page text by ID reference, outranks aria-label and native naming, can reference multiple IDs (including itself) and hidden content, fails silently on broken IDs, and can't cross shadow DOM.",
+   "tags": [
+    "ARIA"
+   ],
+   "title": "How aria-labelledby really works",
+   "type": "article",
+   "url": "https://www.maxdesign.com.au/articles/aria-labelledby.html"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Russ Weakley (Max Design)",
+   "date": "2025-12-18",
+   "id": 83,
+   "key_points": [
+    "Typing echo is low priority and debounced",
+    "Focus changes can pre-empt announcements",
+    "Screen reader output is filtered, not a log"
+   ],
+   "my_comments": [
+    "Nice explanation of how speech queues work for screen readers"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Uses a traffic-intersection analogy to explain why screen readers may or may not announce typed characters: typing echo is low priority and debounced, focus changes interrupt it, DOM batching merges changes, and some fields suppress echo.",
+   "tags": [
+    "Screen readers & braille"
+   ],
+   "title": "More about screen reader speech queues",
+   "type": "article",
+   "url": "https://www.maxdesign.com.au/articles/more-about-speech-queues.html"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Manuel Matuzović",
+   "date": "2026-02-23",
+   "id": 84,
+   "key_points": [
+    "Popup must have the matching role",
+    "Navigation (links) ≠ menu (actions)",
+    "JAWS expects menu keyboard behavior",
+    "Use aria-expanded for nav disclosures"
+   ],
+   "my_comments": [
+    "Nice article explaining menu vs navigation"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "aria-haspopup is often misused on navigation disclosure buttons. It declares a popup of a specific role (menu, listbox, tree, grid, dialog), and screen readers like JAWS then expect menu keyboard behavior. For site navigation, use aria-expanded instead.",
+   "tags": [
+    "ARIA",
+    "HTML & components"
+   ],
+   "title": "aria-haspopup might not do what you think it does",
+   "type": "article",
+   "url": "https://www.matuzo.at/blog/2026/aria-haspopup-menu"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Nat Tarnoff",
+   "date": "2026-02-23",
+   "id": 85,
+   "key_points": [
+    "Single-pointer alternative for multipoint/path gestures",
+    "Drag-and-drop needs button/arrow alternatives",
+    "Canvas tools need native controls",
+    "Keyboard parity for all interactions"
+   ],
+   "my_comments": [
+    "Nice explanation of how to address WCAG 2.5.1 with various options"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explains WCAG 2.5.1 Pointer Gestures: multipoint or path-based gestures need single-pointer alternatives, and keyboard support should cover all mouse/touch interactions, e.g., buttons or arrow keys for drag-and-drop with live-region announcements.",
+   "tags": [
+    "WCAG & standards",
+    "Focus & keyboard"
+   ],
+   "title": "A11y 101: 2.5.1 Pointer Gestures",
+   "type": "guide",
+   "url": "https://tarnoff.info/2026/02/23/a11y-101-2-5-1-pointer-gestures/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Andrew Murphy",
+   "date": "2026-03-17",
+   "id": 86,
+   "key_points": [
+    "Optimize the actual bottleneck",
+    "Coding speed rarely is it",
+    "Measure cycle time, limit WIP",
+    "Faster output can make things worse"
+   ],
+   "my_comments": [
+    "Great article about issue with AI coding"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues AI coding tools speed up a step that usually isn't the bottleneck; real delays come from unclear requirements, review queues, deployment fear and organizational friction, so teams should map value streams and measure cycle time.",
+   "tags": [
+    "AI",
+    "Programs & process"
+   ],
+   "title": "If you thought the speed of writing code was your problem - you have bigger problems",
+   "type": "article",
+   "url": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Dani Devesa Derksen-Staats (Accessibility up to 11)",
+   "id": 87,
+   "key_points": [
+    "Bite-sized daily tips",
+    "SwiftUI and UIKit APIs",
+    "Covers many assistive technologies"
+   ],
+   "my_comments": [
+    "365 tips for ios AX - like the format"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A year-long series of short daily iOS accessibility tips (230+ posts) on SwiftUI/UIKit accessibility modifiers, VoiceOver, Voice Control, Switch Control, Full Keyboard Access, Dynamic Type and testing.",
+   "tags": [
+    "iOS",
+    "Learning resources"
+   ],
+   "title": "#365DaysIOSAccessibility",
+   "type": "resource collection",
+   "url": "https://accessibilityupto11.com/365-days-ios-accessibility/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Anna E. Cook",
+   "date": "2026-05-04",
+   "id": 88,
+   "key_points": [
+    "AI reproduces training-data problems",
+    "Accessible infrastructure enables AI",
+    "WebAIM Million 2026 shows regression",
+    "Budgets shifting away from accessibility"
+   ],
+   "my_comments": [
+    "AI perpetuating inaccessible products"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues AI can't fix accessibility; it relies on accessible, semantic, consistent systems to work at all. Cites WebAIM Million 2026 showing the first regression in six years, which she links to AI-assisted coding and budgets shifting from accessibility to AI.",
+   "tags": [
+    "AI",
+    "Programs & process"
+   ],
+   "title": "AI Doesn't Fix Accessible Systems. It Depends on Them.",
+   "type": "article",
+   "url": "https://annaecook.com/writing/2026/ai-doesnt-fix-accessible-systems-it-depends-on-them"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Dani Devesa Derksen-Staats (Accessibility up to 11)",
+   "date": "2026-02-22",
+   "id": 89,
+   "key_points": [
+    "Multiple input methods",
+    "Audio and haptic feedback",
+    "Customizable difficulty and presentation",
+    "'Cruise/Fast/Rapid' instead of Easy/Hard"
+   ],
+   "my_comments": [
+    "This author has experience with iOS AX"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "How the author made RetroRapid!, an Apple Watch racing game, accessible: multiple inputs (Digital Crown, swipes, taps, keyboard), audio cues using musical notes, haptics, customizable settings, and non-stigmatizing difficulty names.",
+   "tags": [
+    "iOS"
+   ],
+   "title": "Learning to develop more accessible iOS games",
+   "type": "article",
+   "url": "https://accessibilityupto11.com/post/2026-02-22-01/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Eric Bailey (GitHub Blog)",
+   "date": "2026-05-15",
+   "id": 90,
+   "key_points": [
+    "Reviewer + implementer sub-agents",
+    "Templates reduce hallucination",
+    "Past audit data improves results",
+    "~36% of WCAG criteria need manual evaluation"
+   ],
+   "my_comments": [
+    "AX agent developed by Github"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "GitHub's pilot accessibility agent reviews pull requests and fixes simple issues; it has reviewed 3,535 PRs with a 68% resolution rate. Lessons: separate reviewer and implementer sub-agents, linear templated instructions, historical audit data, and escalation to humans.",
+   "tags": [
+    "AI",
+    "Testing & auditing"
+   ],
+   "title": "Building a general-purpose accessibility agent, and what we learned in the process",
+   "type": "article / case study",
+   "url": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Karol Wrótniak (Droids On Roids)",
+   "date": "2026-04-23",
+   "id": 91,
+   "key_points": [
+    "ExcludeSemantics for noise",
+    "BlockSemantics for overlays",
+    "Custom actions replace gestures",
+    "Semantics(liveRegion: true)"
+   ],
+   "my_comments": [
+    "Accessibility for cross-platform framework, Flutter"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Flutter accessibility techniques: ExcludeSemantics for decorative elements, BlockSemantics behind overlays, customSemanticsActions as gesture alternatives, and live regions for dynamic updates, compared with SwiftUI and Compose equivalents.",
+   "tags": [
+    "Mobile apps"
+   ],
+   "title": "A Practical Guide to Flutter Accessibility Part 2: Hiding Noise, Exposing Actions",
+   "type": "guide",
+   "url": "https://www.thedroidsonroids.com/blog/flutter-accessibility-guide-part-2"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Hampus Sethfors (Axess Lab)",
+   "date": "2026-05-13",
+   "id": 92,
+   "key_points": [
+    "Automated '100%' score was misleading",
+    "SPA focus landed mid-page",
+    "Hidden content still read",
+    "Skipped headings, missing aria-expanded"
+   ],
+   "my_comments": [
+    "Nice analysis of accessibility issues with an iOS app"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Axess Lab tested a conference site built with Lovable, which claimed 100% accessibility. A screen reader user found SPA focus problems, hidden menu/modal content being read, missing aria-expanded, skipped headings, label mismatches for voice control and a poorly marked language switcher.",
+   "tags": [
+    "AI",
+    "Testing & auditing",
+    "Screen readers & braille"
+   ],
+   "title": "Lovable's AI built a 100% accessible site – or did it?",
+   "type": "audit / case study",
+   "url": "https://axesslab.com/lovable/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "AppleVis",
+   "id": 93,
+   "key_points": [
+    "App accessibility directory and reviews",
+    "Guides and podcasts",
+    "Active blind user community"
+   ],
+   "my_label": "AppleVis",
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "status_note": "Summary written from the homepage structure",
+   "summary": "Community website for blind and low-vision users of Apple products, with app accessibility reviews and directory, guides, podcasts, forums and news about VoiceOver and iOS/macOS accessibility.",
+   "tags": [
+    "iOS",
+    "Community & careers"
+   ],
+   "title": "AppleVis",
+   "type": "community / resource hub",
+   "url": "https://www.applevis.com/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Rachele DiTullio",
+   "date": "2026-05",
+   "id": 94,
+   "my_comments": [
+    "Nice article on testing with different iOS settings, also has other related articles"
+   ],
+   "page_status": "unreadable",
+   "section": "General accessibility links",
+   "status_note": "Site rate-limited automated reading",
+   "tags": [
+    "iOS",
+    "Testing & auditing"
+   ],
+   "title": "4 iOS display settings to check your app with",
+   "type": "article",
+   "url": "https://racheleditullio.com/blog/2026/05/4-ios-display-settings-to-check-your-app-with/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Adam Silver",
+   "date": "2026-05-31",
+   "id": 95,
+   "key_points": [
+    "Disabled files confuse users",
+    "Hint text often isn't read",
+    "Doesn't cover all validation",
+    "Error hiding ≠ error prevention"
+   ],
+   "my_comments": [
+    "Article shows different interpretations of a WCAG criterion"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues against the accept attribute on file inputs: it greys out ineligible files without explanation, doesn't cover size limits or drag-and-drop, and hides errors rather than preventing them. Better to validate and show a clear error.",
+   "tags": [
+    "Forms",
+    "WCAG & standards"
+   ],
+   "title": "Why the accept attribute degrades file upload UX",
+   "type": "article",
+   "url": "https://adamsilver.io/blog/why-the-accept-attribute-degrades-file-upload-ux/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "GAAD Foundation with ServiceNow",
+   "date": "2026-08-22",
+   "id": 96,
+   "key_points": [
+    "60 models ranked",
+    "Contrast is ~90% of violations",
+    "Price doesn't predict results",
+    "Newer isn't always better"
+   ],
+   "my_comments": [
+    "AI model comparison for accessibility"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Benchmark that asks 60 AI models to generate web pages in 28 categories and measures WCAG 2.2 AA violations with axe-core ('accessibility debt'). Results vary widely by provider and version; price doesn't predict accessibility; colour contrast dominates failures.",
+   "tags": [
+    "AI",
+    "Testing & auditing"
+   ],
+   "title": "AIMAC: AI Model Accessibility Checker leaderboard",
+   "type": "benchmark",
+   "url": "https://aimac.ai/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Karl Groves (AFixt)",
+   "date": "2026-06-11",
+   "id": 97,
+   "key_points": [
+    "Only ~13-27% of checks are SEO-relevant",
+    "Search engines model one non-interactive user",
+    "Keyword-stuffed alt text hurts accessibility"
+   ],
+   "my_comments": [
+    "SEO vs accessibility"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Analysis of 20 audits and 100,000+ automated failures finds only a small fraction of accessibility checks relate to SEO. The most common failures (dynamic content, ARIA, contrast, keyboard) are invisible to search engines, and some SEO tactics conflict with accessibility.",
+   "tags": [
+    "Testing & auditing",
+    "Programs & process"
+   ],
+   "title": "SEO is not accessibility, and we have the data to prove it",
+   "type": "article / research",
+   "url": "https://afixt.com/seo-is-not-accessibility-and-we-have-the-data-to-prove-it/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Ela Gorla (TetraLogical)",
+   "date": "2026-06-17",
+   "id": 98,
+   "key_points": [
+    "Captions + transcripts",
+    "Plain language",
+    "Sign language for key content",
+    "Don't require phone contact"
+   ],
+   "my_comments": [
+    "Comprehensive article on how to design for deaf people"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Design considerations for D/deaf people beyond captions: accurate synced captions and transcripts, customizable captions, plain language, predefined form options, sign language for core content, and multiple contact methods instead of phone-only.",
+   "tags": [
+    "Deaf & hard of hearing"
+   ],
+   "title": "Designing for people who are D/deaf",
+   "type": "article",
+   "url": "https://tetralogical.com/blog/2026/06/17/designing-for-deaf-people/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Nathan Ortiz (Intopia)",
+   "date": "2026-06-16",
+   "id": 99,
+   "key_points": [
+    "Don't render empty DOM nodes",
+    "Don't use empty elements for layout",
+    "Set defaults",
+    "Fallback text only when useful"
+   ],
+   "my_comments": [
+    "Nice article about how to handle when data is missing"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Five patterns for null or missing data in data-driven UIs so screen reader users don't meet empty elements and keyboard users don't land on dead controls: check data before rendering, don't style with empty elements, set defaults, use meaningful fallbacks, and put spacing on containers.",
+   "tags": [
+    "HTML & components",
+    "Screen readers & braille"
+   ],
+   "title": "Handling Missing Data Without Breaking Accessibility",
+   "type": "article",
+   "url": "https://intopia.digital/articles/handling-missing-data-without-breaking-accessibility/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Anna E. Cook",
+   "date": "2026-06-02",
+   "id": 100,
+   "key_points": [
+    "Prototypes answer specific questions",
+    "AI hides structural/accessibility flaws",
+    "Friction enables thinking",
+    "Humans stay accountable"
+   ],
+   "my_comments": [
+    "Insight about how discourse around AI is coercion, not invitation",
+    "Also mentions limitations of AI design prototyping for accessibility"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "A satirical essay pushing back on 'adapt or perish' AI design-tool rhetoric: design needs thinking, collaboration and accountability; AI optimizes visual output while hiding structural and accessibility gaps.",
+   "tags": [
+    "AI",
+    "Visual design & color"
+   ],
+   "title": "Designing with Mustard",
+   "type": "essay",
+   "url": "https://annaecook.com/writing/2026/designing-with-mustard"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Grace Snow (TetraLogical)",
+   "date": "2026-06-25",
+   "id": 101,
+   "key_points": [
+    "Plain language, reading age ~9-11",
+    "Left-aligned, 70-80 char lines",
+    "Distinct letterforms, tall x-height",
+    "Expand acronyms; add visuals/audio"
+   ],
+   "my_comments": [
+    "Nice article on how to design for reading disabilities"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Practical guidance for reducing reading effort: plain language and short sentences, left-aligned text at 70-80 characters, clear headings, legible fonts, a reading age around 9-11, expanded acronyms, and supporting visuals or audio.",
+   "tags": [
+    "Cognitive, reading & mental health",
+    "Visual design & color"
+   ],
+   "title": "Designing for people with reading disabilities",
+   "type": "article",
+   "url": "https://tetralogical.com/blog/2026/06/25/designing-for-reading-disabilities/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Mobile A11y",
+   "date": "2026-07-06",
+   "id": 102,
+   "key_points": [
+    "Scroll views for text",
+    "No fixed heights",
+    "Stack vertically at large sizes",
+    "@ScaledMetric for custom elements"
+   ],
+   "my_comments": [
+    "iOS article about text - might be worth reading again"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Ten practical Dynamic Type tips: put text in scroll views, don't scale fixed bars, remove fixed heights, switch horizontal layouts to vertical at accessibility sizes, use line limits wisely, SF Symbols, @ScaledMetric, and test Bold Text and Display Zoom.",
+   "tags": [
+    "iOS",
+    "Visual design & color"
+   ],
+   "title": "10 Tips for Building iOS Apps That Handle Dynamic Type Well",
+   "type": "guide",
+   "url": "https://mobilea11y.com/blog/good-dynamic-type/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Pedal Point",
+   "date": "2024-05",
+   "id": 103,
+   "my_comments": [
+    "Nice article on writing good alt text"
+   ],
+   "page_status": "blocked",
+   "section": "General accessibility links",
+   "status_note": "Page returned 401 (may require sign-in)",
+   "tags": [
+    "Images & alt text"
+   ],
+   "title": "Here's a simple recipe for good image alt text",
+   "type": "article",
+   "url": "https://pedalpoint.com/2024/05/heres-a-simple-recipe-for-good-image-alt-text/?utm_source=convertkit&utm_medium=email&utm_campaign=How+to+write+great+image+alt+text+-+7172108"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "A11yjobs",
+   "id": 104,
+   "key_points": [
+    "Accessibility-specific job listings",
+    "Remote and on-site roles",
+    "Career resources"
+   ],
+   "my_comments": [
+    "Main job board for ax"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Job board for digital accessibility and assistive technology roles (consultants, engineers and more; remote, hybrid and on-site), plus newsletters, glossary, certifications and events.",
+   "tags": [
+    "Community & careers"
+   ],
+   "title": "A11yjobs",
+   "type": "job board",
+   "url": "https://www.a11yjobs.com/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Access * Ability newsletter",
+   "date": "2026-07-01",
+   "id": 105,
+   "key_points": [
+    "Fill empty table cells with 'N/A'/'None'",
+    "Use spacing tools, not blank lines",
+    "Announce empty states"
+   ],
+   "my_comments": [
+    "Insightful article about blanks"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Blank space is ambiguous to screen reader users, who can't tell intentional emptiness from a loading failure. Use explicit text (e.g., 'None' in table cells), proper paragraph spacing instead of blank lines, and announced empty states.",
+   "tags": [
+    "Screen readers & braille",
+    "HTML & components"
+   ],
+   "title": "The Problem with Blanks for People Who Are Blind or Low Vision",
+   "type": "article",
+   "url": "https://buttondown.com/access-ability/archive/the-problem-with-blanks-for-people-who-are-blind/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Kat Homan (Smashing Magazine)",
+   "date": "2026-07-09",
+   "id": 106,
+   "key_points": [
+    "Novel UI adds cognitive load",
+    "Playful visuals can erode trust",
+    "Predictable navigation",
+    "Streaks/pushy notifications add pressure"
+   ],
+   "my_comments": [
+    "Nice article on mental health considerations"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "With ~95% of mental health app users gone by day 30, argues trendy UI patterns add cognitive friction, emotional mismatch and inconsistency for distressed users; offers a five-point framework for judging trends.",
+   "tags": [
+    "Cognitive, reading & mental health",
+    "Visual design & color"
+   ],
+   "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn't Follow Every UI Fashion",
+   "type": "article",
+   "url": "https://www.smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Pluto Rennie (Salient)",
+   "date": "2026-05-10",
+   "id": 107,
+   "key_points": [
+    "Pressure to appear consistent and credible",
+    "Fluctuating disability is penalized",
+    "Need audited by productivity"
+   ],
+   "my_comments": [
+    "Interesting article about how you have to act a certain way when disabled"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Essay on the pressure for disabled people to present disability consistently and non-disruptively to be believed, while real bodies fluctuate; critiques care as a scarce, productivity-audited resource.",
+   "tags": [
+    "Lived experience & culture"
+   ],
+   "title": "The Perfect Cripple: A User Guide to Being Palatable",
+   "type": "essay",
+   "url": "https://www.salient.org.nz/post/the-perfect-cripple-a-user-guide-to-being-palatable"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Peter Torres Fremlin (Disability Debrief)",
+   "date": "2026-07-08",
+   "id": 108,
+   "key_points": [
+    "Ageism and ableism share roots",
+    "Internalized bias in both",
+    "Aging brings disability to most people"
+   ],
+   "my_comments": [
+    "Overlap between ageism and disability, argues that we shouldn’t judge based on age"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Interview with anti-ageism activist Ashton Applewhite on how ageism and ableism intertwine, why older disabled people often resist disability identity, and adaptation and interdependence as shared human experiences.",
+   "tags": [
+    "Lived experience & culture"
+   ],
+   "title": "Oh, it's happening to me",
+   "type": "interview",
+   "url": "https://www.disabilitydebrief.org/debrief/oh-its-happening-to-me/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Nick Bevers (Spatie)",
+   "date": "2026-08-07",
+   "id": 109,
+   "key_points": [
+    "rem media queries follow the browser font setting",
+    "px breakpoints ignore it",
+    "A conscious design decision"
+   ],
+   "my_comments": [
+    "Nice article that explains rem and how that works with page zoom"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Tailwind's rem-based breakpoints respond to users' browser font-size settings, which exceeds WCAG minimums, but can surprise developers who test at default size. Teams should choose deliberately between honoring font preferences and layout predictability.",
+   "tags": [
+    "Visual design & color",
+    "HTML & components"
+   ],
+   "title": "Can we make default tailwind a more accessible choice?",
+   "type": "article",
+   "url": "https://spatie.be/blog/can-we-make-default-tailwind-a-more-accessible-choice"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Ken Nakata (Converge Accessibility)",
+   "date": "2026-08-03",
+   "id": 110,
+   "key_points": [
+    "Standing requires specific intent to return",
+    "Georgia and Utah anti-abuse statutes in effect",
+    "California AB 649 cure-and-report advancing"
+   ],
+   "my_comments": [
+    "Judge ruled that need intent to return to a website in order to be a valid accessibility lawsuit - used to dismiss cases where the plaintiff shows no intent to return",
+    "In “Bill Tracker” also has list of bills and their status"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Monthly US legal roundup: a Seventh Circuit standing dismissal (plaintiffs must allege specific intent to return), conflicting experts in a California case, a class certification with individualized Unruh claims, and state anti-abusive-litigation laws (Georgia HB 1470, Utah SB 68) and California bills.",
+   "tags": [
+    "Law & policy"
+   ],
+   "title": "Accessibility Legal Update July 2026",
+   "type": "legal update",
+   "url": "https://convergeaccessibility.com/2026/08/03/legal-update-july-2026/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Graeme Coleman (TetraLogical)",
+   "date": "2026-07-22",
+   "id": 111,
+   "key_points": [
+    "Screen title ≈ h1",
+    "iOS gets it by default in SwiftUI",
+    "Most Android apps fail",
+    "Compose improves heading support"
+   ],
+   "my_comments": [
+    "Nice article on native accessibility",
+    "Claims iOS supports heading levels"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Argues native app screen titles should be exposed as headings (like an h1) under WCAG 1.3.1. Testing popular apps found iOS apps did this (SwiftUI's default) while most Android apps did not; Compose makes it easier than XML Views.",
+   "tags": [
+    "Mobile apps",
+    "iOS",
+    "Android",
+    "Screen readers & braille"
+   ],
+   "title": "Should native app screen titles be headings?",
+   "type": "article",
+   "url": "https://tetralogical.com/blog/2026/07/22/should-the-screen-title-be-a-heading/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "T-Mobile Accessibility Resource Center",
+   "id": 112,
+   "key_points": [
+    "Generates acceptance criteria",
+    "Web and native components",
+    "Open source"
+   ],
+   "my_comments": [
+    "Has native app accessibility criteria"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Open-source tool from T-Mobile that generates accessibility acceptance criteria and test instructions for web and native components, so product teams can build and verify accessible experiences.",
+   "tags": [
+    "Testing & auditing",
+    "Learning resources",
+    "Mobile apps"
+   ],
+   "title": "MagentaA11y",
+   "type": "tool",
+   "url": "https://www.magentaa11y.com/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "unattributed.cc",
+   "date": "2026-07-16",
+   "id": 113,
+   "my_comments": [
+    "Reader mode in browsers - learned something new!"
+   ],
+   "page_status": "blocked",
+   "section": "General accessibility links",
+   "status_note": "Site disallows automated reading",
+   "tags": [
+    "HTML & components",
+    "Cognitive, reading & mental health"
+   ],
+   "title": "Accessibility rant: reader mode",
+   "type": "article / opinion",
+   "url": "https://unattributed.cc/2026/07/16/accessibility-rant-reader-mode/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "T-Mobile Accessibility Resource Center",
+   "id": 114,
+   "key_points": [
+    "Acceptance criteria for images",
+    "Manual test steps",
+    "Part of MagentaA11y"
+   ],
+   "my_comments": [
+    "Has nice advice on how to handle alt text for charts"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "status_note": "Section of the MagentaA11y tool (entry 112); page needs JavaScript so summary is based on the tool's structure",
+   "summary": "MagentaA11y's testing criteria for images: acceptance criteria and step-by-step manual test instructions (keyboard, screen reader) for informative and decorative images.",
+   "tags": [
+    "Testing & auditing",
+    "Images & alt text"
+   ],
+   "title": "MagentaA11y: how to test images",
+   "type": "tool / test criteria",
+   "url": "https://www.magentaa11y.com/#/how-to-test-criteria/test-type/images"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2024-04-11",
+   "id": 115,
+   "key_points": [
+    "WCAG applies to apps as well as web",
+    "Aim for AA",
+    "Links to regional requirements",
+    "Free handbook and guides"
+   ],
+   "my_comments": [
+    "Each WCAG criteria has tips for how to implement on Android and iOS"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Appt's overview of WCAG 2.2 for apps: 4 principles, 13 guidelines, 87 success criteria across levels A/AA/AAA, how they apply to mobile apps, and links to EN 301 549 and Section 508.",
+   "tags": [
+    "WCAG & standards",
+    "Mobile apps",
+    "Learning resources"
+   ],
+   "title": "Web Content Accessibility Guidelines (WCAG) | Appt",
+   "type": "reference",
+   "url": "https://appt.org/en/guidelines/wcag"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Deborah de Quevedo (The Doctors Company)",
+   "date": "2024-05-09",
+   "id": 116,
+   "key_points": [
+    "Medical equipment deadline July 8, 2026",
+    "Web/app: May 11, 2027 (15+ employees); May 10, 2028 (fewer)",
+    "WCAG 2.1 AA",
+    "Can't delegate responsibility to vendors"
+   ],
+   "my_comments": [
+    "AX medical regulation for disability - notice that some deadlines in 2027 and 2028"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Explains the May 2024 HHS Section 504 rule for healthcare providers receiving federal funds: accessible exam tables and scales, and WCAG 2.1 AA for websites, apps and kiosks, with deadlines in 2026-2028.",
+   "tags": [
+    "Law & policy"
+   ],
+   "title": "HHS Accessibility Rule: Fast-Approaching Compliance Deadlines for Healthcare Providers",
+   "type": "article / legal",
+   "url": "https://www.thedoctors.com/articles/hhs-accessibility-rule-fast-approaching-compliance-deadlines-for-hospitals-medical-and-dental-offices-and-healthcare-providers"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Open Source Guides (GitHub)",
+   "date": "2026-09-04",
+   "id": 117,
+   "key_points": [
+    "Accessibility statement",
+    "Accessible documentation",
+    "Add to PR checklists and templates",
+    "Start with quick wins"
+   ],
+   "my_comments": [
+    "Open Source ax tips"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "How to make open source projects accessible: partner with disabled people, publish an accessibility statement, accessible docs, keyboard-friendly native UI, automated plus manual testing, and accessibility in PR checklists and issue templates.",
+   "tags": [
+    "Programs & process",
+    "Learning resources"
+   ],
+   "title": "Accessibility Best Practices for Your Project",
+   "type": "guide",
+   "url": "https://opensource.guide/accessibility-best-practices-for-your-project/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "WebAIM",
+   "date": "2024-06-20",
+   "id": 118,
+   "key_points": [
+    "Plain-language criteria",
+    "Filter by 2.0/2.1/2.2 and A/AA/AAA",
+    "Links to techniques"
+   ],
+   "my_comments": [
+    "Comprehensive checklist for WCAG criteria"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Simplified, practical checklist of WCAG 2.2 success criteria organized by principle, filterable by WCAG version and level, with links to W3C specs and WebAIM techniques.",
+   "tags": [
+    "WCAG & standards",
+    "Testing & auditing",
+    "Learning resources"
+   ],
+   "title": "WebAIM's WCAG 2 Checklist",
+   "type": "checklist",
+   "url": "https://webaim.org/standards/wcag/checklist"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "David Bushell",
+   "date": "2026-06-26",
+   "id": 119,
+   "my_comments": [
+    "Explains why should be careful when using APG, it purposely over-indexes on using ARIA"
+   ],
+   "page_status": "blocked",
+   "section": "General accessibility links",
+   "status_note": "Site disallows automated reading",
+   "tags": [
+    "ARIA"
+   ],
+   "title": "ARIA anti-patterns and you",
+   "type": "article",
+   "url": "https://dbushell.com/2026/06/26/aria-anti-patterns-and-you/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Sightless Scribbles",
+   "id": 120,
+   "my_comments": [
+    "Shows how prototyping practices in Silicon Valley can lead to inaccessible products"
+   ],
+   "page_status": "unreadable",
+   "section": "General accessibility links",
+   "status_note": "Page redirects in a loop",
+   "tags": [
+    "Lived experience & culture"
+   ],
+   "title": "Disability dongle",
+   "type": "article / opinion",
+   "url": "https://sightlessscribbles.com/posts/disability-dongle/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "W3C",
+   "date": "2025-12-11",
+   "id": 121,
+   "key_points": [
+    "Most criteria apply to non-web ICT",
+    "Covers documents and software",
+    "Closed-functionality considerations"
+   ],
+   "my_comments": [
+    "WCAG interpretation for non-web applications"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "W3C note on applying WCAG 2.0/2.1/2.2 success criteria to non-web documents and software, replacing 'web page' with 'document' or 'software' and addressing closed-functionality systems.",
+   "tags": [
+    "WCAG & standards"
+   ],
+   "title": "Guidance on Applying WCAG 2 to Non-Web ICT (WCAG2ICT)",
+   "type": "standard / W3C note",
+   "url": "https://www.w3.org/TR/wcag2ict-22/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Dave Gunn (DAISY Consortium)",
+   "date": "2026-08-20",
+   "id": 122,
+   "key_points": [
+    "Chatbot-guided accessibility verification",
+    "Gen AI for accessible formats",
+    "Human oversight essential"
+   ],
+   "my_comments": [
+    "DAISY format",
+    "How making e-books accessible"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "South Korea's National Library for the Disabled uses AI: an online EPUB verification system with a chatbot to help publishers produce born-accessible books, and generative AI trials to speed accessible-format production, with human oversight.",
+   "tags": [
+    "AI",
+    "Screen readers & braille"
+   ],
+   "title": "Smart Libraries: AI Use in South Korea",
+   "type": "article",
+   "url": "https://daisy.org/news-events/articles/smart-libraries-ai-use-in-south-korea/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Adrian Roselli",
+   "date": "2026-08",
+   "id": 123,
+   "key_points": [
+    "Action-required: don't light-dismiss",
+    "Informational: light-dismiss OK",
+    "Consider data loss and recovery"
+   ],
+   "my_comments": [
+    "Considerations for dialogs"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Depends on context: action-required dialogs (legal, warnings, logins) shouldn't close on outside click; informational ones can; sheets and drawers need judgment about data loss, visibility of the page underneath and recovery.",
+   "tags": [
+    "HTML & components",
+    "Focus & keyboard"
+   ],
+   "title": "Should a Dialog Close When Clicked Outside?",
+   "type": "article",
+   "url": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Nic Steenhout",
+   "date": "2026-08-05",
+   "id": 124,
+   "key_points": [
+    "Accessibility lacks an owner at handoffs",
+    "Developers need feedback loops",
+    "Late audits are expensive",
+    "Checkpoints throughout development"
+   ],
+   "my_comments": [
+    "Describes case of AX considered in design but then wasn’t implemented with AX"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Why accessible designs become inaccessible products: workflow gaps rather than individual failures. Handoffs lack ownership, design reviews don't document implementation, and end-of-project audits come too late. Add checkpoints throughout.",
+   "tags": [
+    "Programs & process"
+   ],
+   "title": "Accessibility getting dropped in the process",
+   "type": "newsletter article",
+   "url": "https://buttondown.com/nic-steenhout/archive/accessibility-getting-dropped-in-the-process/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "The A11Y Project",
+   "id": 125,
+   "key_points": [
+    "Beginner friendly",
+    "Linked to WCAG criteria",
+    "Aim for AA"
+   ],
+   "my_comments": [
+    "WCAG checklist"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Beginner-friendly WCAG-based checklist in 18 categories (content, global code, keyboard, images, headings, forms, media and more), each item linked to its success criterion.",
+   "tags": [
+    "WCAG & standards",
+    "Testing & auditing",
+    "Learning resources"
+   ],
+   "title": "Checklist - The A11Y Project",
+   "type": "checklist",
+   "url": "https://www.a11yproject.com/checklist/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "AAArdvark",
+   "id": 126,
+   "key_points": [
+    "Plain-language criteria",
+    "Filter by disability and role",
+    "CC BY-SA"
+   ],
+   "my_comments": [
+    "Goes into WCAG in detail"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Plain-language explanation of WCAG criteria, browsable by principle, guideline, theme, level, disability type and responsibility (code, content, design). Not a replacement for official WCAG.",
+   "tags": [
+    "WCAG & standards",
+    "Learning resources"
+   ],
+   "title": "WCAG in Plain English",
+   "type": "reference",
+   "url": "https://aaardvarkaccessibility.com/wcag-plain-english/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Jeff Adams (UsableNet)",
+   "date": "2026-08-05",
+   "id": 127,
+   "key_points": [
+    "AI copies inaccessible patterns",
+    "Scans cover ~25-30%",
+    "Iterations can regress",
+    "Test with AT users"
+   ],
+   "my_comments": [
+    "Article on limitations of AI to build accessible sites"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "AI can generate storefronts quickly but reproduces inaccessible patterns from its training data. Automated scans cover only about 25-30% of requirements, iterative AI changes can quietly regress accessibility, and expert oversight plus AT user testing remain essential.",
+   "tags": [
+    "AI",
+    "Testing & auditing"
+   ],
+   "title": "AI and Accessibility for Ecommerce: What the Tools Really Do and What they Don't",
+   "type": "article",
+   "url": "https://blog.usablenet.com/ai-and-accessibility-for-ecommerce-what-the-tools-really-do-and-what-they-dont"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "CVS Health",
+   "id": 128,
+   "key_points": [
+    "29 techniques with working code",
+    "Documentation per technique",
+    "Espresso test examples"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Open-source Android sample app with 29 accessibility techniques for View-based UIs (basics, grouping and ordering, dynamic behavior, specific components), each documented, plus Espresso accessibility testing examples.",
+   "tags": [
+    "Android",
+    "Learning resources"
+   ],
+   "title": "android-view-accessibility-techniques",
+   "type": "code samples (GitHub)",
+   "url": "https://github.com/cvs-health/android-view-accessibility-techniques"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "CVS Health",
+   "id": 129,
+   "key_points": [
+    "30+ Compose techniques",
+    "Working code and docs",
+    "Apache 2.0"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Open-source sample app with 30+ documented accessibility techniques for Jetpack Compose (informative content, interactive behaviors, specific components) in Kotlin.",
+   "tags": [
+    "Android",
+    "Learning resources"
+   ],
+   "title": "android-compose-accessibility-techniques",
+   "type": "code samples (GitHub)",
+   "url": "https://github.com/cvs-health/android-compose-accessibility-techniques"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "W3C",
+   "id": 130,
+   "key_points": [
+    "Q&A on interpreting success criteria",
+    "Covers WCAG 2.2 and 3",
+    "Many questions answered by WG members"
+   ],
+   "my_comments": [
+    "Good resource if unsure whether is a WCAG failure",
+    "Issues tab is also good for this"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "The W3C WCAG repository's GitHub Discussions forum, where practitioners ask clarification questions about WCAG 2.2 and WCAG 3 success criteria (focus visibility, contrast, reflow, labels, pointer gestures) and get answers from the community and working group members.",
+   "tags": [
+    "WCAG & standards",
+    "Community & careers"
+   ],
+   "title": "W3C WCAG GitHub Discussions",
+   "type": "community forum",
+   "url": "https://github.com/w3c/wcag/discussions"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "TetraLogical",
+   "id": 131,
+   "key_points": [
+    "Audits, training, strategy",
+    "Respected blog",
+    "Free foundations newsletter"
+   ],
+   "my_comments": [
+    "Another major AX company"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "UK accessibility consultancy offering audits, consultancy, training and strategy, with a team of screen reader and ARIA specialists, and a widely read blog and free newsletter series.",
+   "tags": [
+    "Community & careers"
+   ],
+   "title": "TetraLogical",
+   "type": "organization",
+   "url": "https://tetralogical.com/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Cam Coulter",
+   "date": "2026-09-03",
+   "id": 132,
+   "key_points": [
+    "Learn the structure first",
+    "Web fundamentals help",
+    "Practice testing",
+    "Join communities and conferences"
+   ],
+   "my_comments": [
+    "Cam Coulter’s presentation about WCAG, has a bunch of great resources in it"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "Presentation notes on a structured way to learn WCAG: understand its structure (principles, guidelines, success criteria), learn HTML/CSS/JS and ARIA, practice testing with tools and screen readers, and join the community.",
+   "tags": [
+    "WCAG & standards",
+    "Learning resources"
+   ],
+   "title": "How to Learn WCAG",
+   "type": "presentation notes",
+   "url": "https://www.camcoulter.com/presentations/how-to-learn-wcag/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Sheri Byrne-Haber",
+   "date": "2026-09-02",
+   "id": 134,
+   "key_points": [
+    "Contrast is only part of the story",
+    "Saturated colours can cause pain",
+    "Striped patterns can trigger seizures",
+    "Offer both light and dark modes"
+   ],
+   "my_comments": [
+    "In-depth article about limitations of WCAG criteria for color"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "WCAG's colour criteria cover only a fraction of colour accessibility. Discusses colour vision deficiency, sensory sensitivity to saturated colours, migraine/photophobia triggers, seizure risk from static striped patterns, and the need for both light and dark themes.",
+   "tags": [
+    "Visual design & color",
+    "WCAG & standards"
+   ],
+   "title": "Accessible Color Choices Are About So Much More Than Just Contrast",
+   "type": "article",
+   "url": "https://www.sheribyrnehaber.com/accessible-color-choices-are-about-so-much-more-than-just-contrast/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Russ Weakley (Max Design)",
+   "date": "2026-08-13",
+   "id": 135,
+   "key_points": [
+    "Signals extra info exists",
+    "For long or structured content",
+    "aria-describedby for short essentials",
+    "Multiple IDs allowed in ARIA 1.3"
+   ],
+   "my_comments": [
+    "Aria-details property and how differs from aria-describedby"
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "aria-details points to extended, structured information without having screen readers read it all automatically, letting users choose to explore it. Contrasts it with aria-describedby, which is read as part of the element's description and suits short text.",
+   "tags": [
+    "ARIA"
+   ],
+   "title": "Understanding aria-details",
+   "type": "article",
+   "url": "https://www.maxdesign.com.au/articles/aria-details-explained.html"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Patrick H. Lauke (YouTube)",
+   "id": 136,
+   "my_comments": [
+    "Patrick Lauke’s presentation on how to interpret WCAG"
+   ],
+   "page_status": "blocked",
+   "section": "General accessibility links",
+   "status_note": "YouTube rate-limited automated reading",
+   "tags": [
+    "WCAG & standards"
+   ],
+   "title": "Patrick Lauke: how to interpret WCAG (presentation)",
+   "type": "video",
+   "url": "https://www.youtube.com/watch?v=ADIgU53Y2Rg"
+  },
+  {
+   "added": "2026-09-24",
+   "author": "Ricky Onsman",
+   "date": "2026-09-13",
+   "id": 165,
+   "key_points": [
+    "AI complements, not replaces, professional judgment",
+    "Audits carry an evidentiary burden, so findings must be evidence-based",
+    "Biggest value: broader thinking, more disability perspectives, edge cases, consistency, less admin",
+    "Testing with disabled people remains essential"
+   ],
+   "my_comments": [
+    "I really like this sentence \"The highest value lies in helping expert auditors think more broadly, cover more disability perspectives, explore edge cases, improve consistency, and reduce the administrative burden of auditing.\""
+   ],
+   "page_status": "ok",
+   "section": "General accessibility links",
+   "summary": "How accessibility auditors can use AI as a supporting 'junior partner' while keeping testing evidence-based. AI can review large amounts of content quickly, but its output needs expert review, auditors stay accountable for conclusions, and usability testing with disabled people can't be reliably simulated.",
+   "tags": [
+    "AI",
+    "Testing & auditing"
+   ],
+   "title": "Using AI as Your Accessibility Testing Partner",
+   "type": "article",
+   "url": "https://onsman.com/using-ai-as-your-accessibility-testing-partner/"
+  },
+  {
+   "added": "2026-09-24",
+   "author": "Adrian Roselli",
+   "date": "2026-09",
+   "id": 166,
+   "my_comments": [
+    "It gives really good tips on how to evaluate a WCAG criterion."
+   ],
+   "page_status": "unreadable",
+   "section": "General accessibility links",
+   "status_note": "Site rate-limited automated reading on 2026-09-24; summary to be added later",
+   "tags": [
+    "WCAG & standards",
+    "Testing & auditing"
+   ],
+   "title": "Evaluating a Success Criterion",
+   "type": "article",
+   "url": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
+  },
+  {
+   "added": "2026-09-30",
+   "author": "Michele A. Williams (Accessibility Talks)",
+   "id": 167,
+   "my_comments": [
+    "\"If exclusion is the norm, access will always feel exceptional\""
+   ],
+   "page_status": "blocked",
+   "section": "General accessibility links",
+   "status_note": "YouTube blocked automated reading; summary to be added later",
+   "tags": [
+    "Lived experience & culture"
+   ],
+   "title": "Exclusion by Design - Michele A. Williams",
+   "type": "video / talk",
+   "url": "https://www.youtube.com/watch?v=rTlzxDLkg8I"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2023-11-01",
+   "id": 137,
+   "key_points": [
+    "Four main AT categories",
+    "TalkBack and VoiceOver",
+    "Platform-specific links"
+   ],
+   "my_label": "Appt.org assistive technologies",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Overview of the main assistive technologies used with apps (screen readers, voice control, switch control, keyboard access) with links to Android and iOS documentation for each.",
+   "tags": [
+    "Mobile apps",
+    "Screen readers & braille",
+    "Voice & switch control"
+   ],
+   "title": "Assistive technologies for using apps",
+   "type": "guide",
+   "url": "https://appt.org/en/articles/assistive-technologies"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation (research by Q42)",
+   "date": "2025-12-04",
+   "id": 138,
+   "key_points": [
+    "50%+ of users use accessibility settings",
+    "Font size and dark mode most common",
+    "Captions used widely"
+   ],
+   "my_label": "Appt.org assistive stats",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Anonymous data from millions of Dutch iOS and Android users: over half have at least one accessibility setting on (about 50% of iOS users, nearly 75% of Android). Visual settings like dark mode and font size are most common.",
+   "tags": [
+    "Statistics",
+    "Mobile apps"
+   ],
+   "title": "Accessibility Stats",
+   "type": "statistics",
+   "url": "https://appt.org/en/stats"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "World Health Organization",
+   "date": "2023-03-07",
+   "id": 139,
+   "key_points": [
+    "1.3 billion people, ~1 in 6",
+    "Twice the risk of depression, diabetes and more",
+    "Health inequities from systemic barriers"
+   ],
+   "my_label": "WHO ax stats",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "An estimated 1.3 billion people (about 16%, 1 in 6) have significant disability. They face health inequities, earlier death and higher risk of chronic conditions due to stigma, poverty and inaccessible health systems.",
+   "tags": [
+    "Statistics"
+   ],
+   "title": "Disability and health (fact sheet)",
+   "type": "statistics / fact sheet",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/disability-and-health"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "id": 140,
+   "key_points": [
+    "Code docs across 5 frameworks",
+    "Usage statistics",
+    "Free handbook"
+   ],
+   "my_label": "Appt.org guide for making ax apps",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Nonprofit knowledge base for accessible mobile apps: usage statistics, code documentation for iOS, Android, React Native, Flutter and Xamarin, WCAG guidance for apps, articles and a free handbook.",
+   "tags": [
+    "Mobile apps",
+    "Learning resources"
+   ],
+   "title": "Appt.org: A guide for making apps accessible",
+   "type": "resource hub",
+   "url": "https://appt.org/en"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Google",
+   "id": 141,
+   "key_points": [
+    "Official Android docs",
+    "Accessibility section for Views and Compose"
+   ],
+   "my_label": "Android developer docs",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "status_note": "Summary written from general knowledge of the site",
+   "summary": "Google's official Android developer site, including the accessibility guides for making apps work with TalkBack, Switch Access, Voice Access and large text in both Views and Jetpack Compose.",
+   "tags": [
+    "Android",
+    "Learning resources"
+   ],
+   "title": "Android Developers",
+   "type": "documentation hub",
+   "url": "https://developer.android.com/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Apple",
+   "id": 142,
+   "key_points": [
+    "Official Apple docs",
+    "HIG accessibility guidance"
+   ],
+   "my_label": "Apple developer docs",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "status_note": "Summary written from general knowledge of the site",
+   "summary": "Apple's official developer site, including Human Interface Guidelines and accessibility documentation for VoiceOver, Dynamic Type, Voice Control and Switch Control in SwiftUI and UIKit.",
+   "tags": [
+    "iOS",
+    "Learning resources"
+   ],
+   "title": "Apple Developer",
+   "type": "documentation hub",
+   "url": "https://developer.apple.com/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2025-01-30",
+   "id": 143,
+   "key_points": [
+    "Native: full support",
+    "Flutter: full",
+    "React Native: ~90%",
+    "Xamarin: 50-80%"
+   ],
+   "my_label": "Appt.org native vs cross platform frameworks",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Compares accessibility API support in native Android/iOS vs Flutter, React Native and Xamarin: native and Flutter have full support, React Native about 90% (e.g., no focus order control), Xamarin 50-80%.",
+   "tags": [
+    "Mobile apps"
+   ],
+   "title": "Native versus cross-platform frameworks to develop accessible apps",
+   "type": "article",
+   "url": "https://appt.org/en/articles/native-versus-cross-frameworks-accessible-apps"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Abra",
+   "date": "2024-09-08",
+   "id": 144,
+   "key_points": [
+    "Native: full device access",
+    "Cross-platform: possible accessibility gaps",
+    "Hybrid: webviews + native",
+    "Framework choice affects accessibility"
+   ],
+   "my_label": "Abra differences between native, web, and hybrid apps",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Explains native, cross-platform and hybrid (webview) apps and how framework choice affects accessibility capability and compliance; recommends testing accessibility early.",
+   "tags": [
+    "Mobile apps"
+   ],
+   "title": "Key Differences Between Native, Web, and Hybrid Apps",
+   "type": "article",
+   "url": "https://abra.ai/blog/wat-are-the-differences-between-apps"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Council of the European Union",
+   "date": "2024-10-14",
+   "id": 145,
+   "key_points": [
+    "1 in 4 EU adults",
+    "47% of those 65+",
+    "29% at risk of poverty/social exclusion"
+   ],
+   "my_label": "EU disability figures",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "About 90 million Europeans (24% of adults) have a disability, rising steeply with age (47% over 65). Disabled people face higher discrimination, unemployment and poverty risk.",
+   "tags": [
+    "Statistics"
+   ],
+   "title": "Disability in the EU: facts and figures",
+   "type": "statistics / infographic",
+   "url": "https://www.consilium.europa.eu/en/infographics/disability-eu-facts-figures/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Jan Jaap de Groot and Paul van Workum (Appt)",
+   "date": "2024-05-16",
+   "id": 146,
+   "key_points": [
+    "Free PDF",
+    "Updated for WCAG 2.2",
+    "Plain language"
+   ],
+   "my_label": "Appt handbook",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Free app accessibility handbook (2nd edition, English and Dutch) covering the basics in plain language and updated for WCAG 2.2; PDF download or printed copy.",
+   "tags": [
+    "Mobile apps",
+    "Learning resources"
+   ],
+   "title": "Appt Accessibility Handbook",
+   "type": "book / handbook",
+   "url": "https://appt.org/en/handbook"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2024-04-11",
+   "id": 147,
+   "key_points": [
+    "Six disability groups",
+    "~19.5% of Dutch people have age-related impairments",
+    "~14.7% low literacy",
+    "Permanent, temporary, situational"
+   ],
+   "my_label": "Appt disabilities by cohort",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Overview of six groups of disabilities that affect app use (cognitive, hearing, mobility, speech, visual, and age-related), with Dutch prevalence figures, and a reminder that disabilities can be permanent, temporary or situational.",
+   "tags": [
+    "Statistics",
+    "Mobile apps"
+   ],
+   "title": "Disabilities when using apps",
+   "type": "article / statistics",
+   "url": "https://appt.org/en/articles/disabilities/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2024-04-11",
+   "id": 148,
+   "key_points": [
+    "Enable via Settings, Siri or shortcut",
+    "Swipe left/right, double-tap",
+    "Rotor via two-finger rotate"
+   ],
+   "my_label": "Appt VoiceOver guidance",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "How to turn on and use VoiceOver on iOS: activation options, core gestures (swipe to move, double-tap to activate), multi-finger gestures, the rotor, and settings like speech rate.",
+   "tags": [
+    "iOS",
+    "Screen readers & braille"
+   ],
+   "title": "VoiceOver: screen reader for iOS",
+   "type": "documentation",
+   "url": "https://appt.org/en/docs/ios/features/voiceover"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2024-04-11",
+   "id": 149,
+   "key_points": [
+    "Volume-key shortcut",
+    "Multi-finger gestures since 9.1",
+    "Practice app available"
+   ],
+   "my_label": "Appt Talkback guidance",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "How to enable and use TalkBack on Android: single-finger swipes to move, two-finger scroll, multi-finger gestures for menus and editing (since 9.1), and settings for speech rate, pitch and verbosity.",
+   "tags": [
+    "Android",
+    "Screen readers & braille"
+   ],
+   "title": "TalkBack: screen reader for Android",
+   "type": "documentation",
+   "url": "https://appt.org/en/docs/android/features/talkback"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2022-12-12",
+   "id": 150,
+   "key_points": [
+    "Speak labels, numbers or grid positions",
+    "Voice Access (Android), Voice Control (iOS)",
+    "Visible labels must match accessible names"
+   ],
+   "my_label": "Appt Voice Control guidance (Android and iOS)",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Explains voice control on mobile (Voice Access on Android, Voice Control on iOS), where users speak labels or numbers shown on screen to act, and links to platform guides. iOS usage data isn't available.",
+   "tags": [
+    "Voice & switch control",
+    "Mobile apps"
+   ],
+   "title": "Voice control",
+   "type": "documentation / statistics",
+   "url": "https://appt.org/en/stats/voice-control"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2024-04-18",
+   "id": 151,
+   "key_points": [
+    "Android 5.0+",
+    "Numbers and grid overlay",
+    "Extensive text-editing commands"
+   ],
+   "my_label": "Appt Voice Access guidance",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Setup and command reference for Android Voice Access: enabling it, numbered labels and grid overlays, and voice commands for navigation, gestures, text editing and settings.",
+   "tags": [
+    "Android",
+    "Voice & switch control"
+   ],
+   "title": "Voice Access for Android",
+   "type": "documentation",
+   "url": "https://appt.org/en/docs/android/features/voice-access"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2022-12-12",
+   "id": 152,
+   "key_points": [
+    "Internal vs external switches",
+    "iOS Switch Control / Android Switch Access"
+   ],
+   "my_label": "Appt Switch Control guidance",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Explains switch control for people with motor disabilities: internal switches (screen, camera) and external switches (physical buttons), with links to iOS Switch Control and Android Switch Access guides.",
+   "tags": [
+    "Voice & switch control",
+    "Mobile apps"
+   ],
+   "title": "Switch control",
+   "type": "documentation / statistics",
+   "url": "https://appt.org/en/stats/switch-control"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2024-04-11",
+   "id": 153,
+   "key_points": [
+    "Three switch types",
+    "Auto, step and group scanning",
+    "Actions menu for multi-action items"
+   ],
+   "my_label": "Appt Switch Access guidance",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "How to set up Android Switch Access: connecting switches, keyboards or device buttons, choosing a scanning method (auto, step, group), and using its menus.",
+   "tags": [
+    "Android",
+    "Voice & switch control"
+   ],
+   "title": "Switch Access for Android",
+   "type": "documentation",
+   "url": "https://appt.org/en/docs/android/features/switch-access"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2023-01-27",
+   "id": 154,
+   "key_points": [
+    "20%+ of users enlarge text",
+    "Android defaults vary by device",
+    "Code samples for scalable fonts"
+   ],
+   "my_label": "Appt font size",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Over one fifth of Dutch iOS and Android users enlarge text (3+ million people); Android default font sizes vary by manufacturer. Links to code samples for supporting scalable text.",
+   "tags": [
+    "Visual design & color",
+    "Mobile apps",
+    "Statistics"
+   ],
+   "title": "Font size",
+   "type": "statistics",
+   "url": "https://appt.org/en/stats/font-size"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2024-02-20",
+   "id": 155,
+   "key_points": [
+    "Bluetooth or wired",
+    "Tab / arrows / Space",
+    "Customizable commands in Settings"
+   ],
+   "my_label": "App for iOS external keyboard",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "How to connect an external keyboard to iOS and use Full Keyboard Access: Tab, arrow keys, Space to activate, and customizable commands, with shortcut tables.",
+   "tags": [
+    "iOS",
+    "Focus & keyboard"
+   ],
+   "title": "Keyboard Access for iOS",
+   "type": "documentation",
+   "url": "https://appt.org/en/docs/ios/features/keyboard-access"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2022-09-16",
+   "id": 156,
+   "key_points": [
+    "Easier than touch for some motor disabilities",
+    "Blind users type faster",
+    "Common with tablets"
+   ],
+   "my_label": "Appt external keyboard guidance",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Explains why keyboard access matters on mobile (motor disabilities, blind users, tablet keyboard users) and links to Android and iOS guides.",
+   "tags": [
+    "Focus & keyboard",
+    "Mobile apps"
+   ],
+   "title": "Keyboard access",
+   "type": "documentation / statistics",
+   "url": "https://appt.org/en/stats/keyboard-access"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Abra",
+   "date": "2026-01-21",
+   "id": 157,
+   "key_points": [
+    "Web views = non-web software",
+    "New WCAG 2.2 criteria",
+    "Clearer layer responsibility model",
+    "Testing approaches will need updates"
+   ],
+   "my_label": "Mobile accessibility for EN 301 549",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "EN 301 549 v4.1.0 aligns the EU standard with WCAG 2.2: web views in apps are treated as non-web software (Clause 11), four new criteria (focus, dragging, target size, authentication) are added, and some previously void criteria now apply to apps.",
+   "tags": [
+    "WCAG & standards",
+    "Law & policy",
+    "Mobile apps"
+   ],
+   "title": "Mobile App Accessibility under EN 301 549 v4.1.0",
+   "type": "article / standards",
+   "url": "https://abra.ai/blog/mobile-app-accessibility-en-301-549-v4-1-0"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "W3C WAI",
+   "id": 158,
+   "key_points": [
+    "Informative test rules",
+    "Proposed/approved status",
+    "Implementation reports for tools"
+   ],
+   "my_label": "ACT rules",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Catalog of Accessibility Conformance Testing (ACT) rules for WCAG 2.2 and ARIA, which standardize how to test specific requirements; filterable by requirement, status and implementation (manual, automated, linters).",
+   "tags": [
+    "WCAG & standards",
+    "Testing & auditing"
+   ],
+   "title": "All ACT Rules",
+   "type": "standards reference",
+   "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "W3C Mobile Accessibility Task Force",
+   "date": "2025-05-06",
+   "id": 159,
+   "key_points": [
+    "Covers all WCAG 2.2 A/AA criteria for mobile",
+    "Maps web terminology to screens/views",
+    "Informative guidance only",
+    "Excludes hardware, AAA and wearables"
+   ],
+   "my_label": "WCAG mobile ax task force",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "status_note": "Same page as entry 46",
+   "summary": "W3C draft note on applying WCAG 2.2 A and AA success criteria to native, mobile web and hybrid apps, replacing web terms (e.g., 'web page') with mobile concepts like screens and views. Informative, not normative.",
+   "tags": [
+    "WCAG & standards",
+    "Mobile apps"
+   ],
+   "title": "Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile)",
+   "type": "standard / W3C note",
+   "url": "https://www.w3.org/TR/wcag2mobile-22/"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2026-01-29",
+   "id": 160,
+   "key_points": [
+    "8 platforms",
+    "Code samples",
+    "Starter guide for beginners"
+   ],
+   "my_label": "Appt ax documentation",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Appt's code documentation for eight platforms (Android Views, Jetpack Compose, iOS UIKit, SwiftUI, Flutter, React Native, .NET MAUI, Xamarin), starting with an Accessible App Starter Guide.",
+   "tags": [
+    "Mobile apps",
+    "Learning resources"
+   ],
+   "title": "Accessibility documentation | Appt",
+   "type": "documentation hub",
+   "url": "https://appt.org/en/docs"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "CVS Health",
+   "id": 161,
+   "my_label": "CVS iOS annotations",
+   "page_status": "blocked",
+   "section": "Mobile AX coursework links",
+   "status_note": "Figma disallows automated reading",
+   "tags": [
+    "iOS",
+    "Visual design & color"
+   ],
+   "title": "Accessibility Annotation Kit for iOS (Figma)",
+   "type": "design tool (Figma file)",
+   "url": "https://www.figma.com/es-la/comunidad/file/1331647574396908226/accessibility-annotation-kit-for-ios"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "eBay (Include)",
+   "id": 162,
+   "my_label": "Include annotations (iOS and Android)",
+   "page_status": "blocked",
+   "section": "Mobile AX coursework links",
+   "status_note": "Figma disallows automated reading",
+   "tags": [
+    "Mobile apps",
+    "Visual design & color"
+   ],
+   "title": "Include Accessibility Annotations (Figma plugin)",
+   "type": "design tool (Figma plugin)",
+   "url": "https://www.figma.com/es-la/comunidad/plugin/1208180794570801545/include-accessibility-annotations"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "date": "2025-04-07",
+   "id": 163,
+   "key_points": [
+    "Detects contrast, labels, semantics",
+    "Free and paid options",
+    "Automation doesn't catch everything"
+   ],
+   "my_label": "Appt automated testing on iOS and Android",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "summary": "Overview of automated accessibility testing tools for mobile: platform tools (Espresso/UI Automator, XCTest), cross-platform (Appium), free libraries (Accessibility Test Framework for Android, GTXiLib) and paid tools (Abra, axe DevTools Mobile).",
+   "tags": [
+    "Mobile apps",
+    "Testing & auditing"
+   ],
+   "title": "Automated accessibility testing of Android and iOS apps",
+   "type": "article",
+   "url": "https://appt.org/en/articles/automated-accessibility-testing-android-ios-apps"
+  },
+  {
+   "added": "2026-09-24 (imported from Word doc)",
+   "author": "Appt Foundation",
+   "id": 164,
+   "key_points": [
+    "Code docs across 5 frameworks",
+    "Usage statistics",
+    "Free handbook"
+   ],
+   "my_label": "Appt knowledge base",
+   "page_status": "ok",
+   "section": "Mobile AX coursework links",
+   "status_note": "Same page as entry 140",
+   "summary": "Nonprofit knowledge base for accessible mobile apps: usage statistics, code documentation for iOS, Android, React Native, Flutter and Xamarin, WCAG guidance for apps, articles and a free handbook.",
+   "tags": [
+    "Mobile apps",
+    "Learning resources"
+   ],
+   "title": "Appt.org: A guide for making apps accessible",
+   "type": "resource hub",
+   "url": "https://appt.org/en"
+  }
+ ]
+}
